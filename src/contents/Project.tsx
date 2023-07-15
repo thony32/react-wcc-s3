@@ -37,8 +37,8 @@ export default function Project() {
           className="js-filter flex flex-col lg:flex-row lg:flex-wrap gap-12"
           uk-grid
         >
-          <li data-content="web">
-            <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="card shadow-lg shadow-info w-[370px] h-[280px]">
+          <li data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg shadow-info w-[370px] h-[280px]">
               <div className="card-body ">
                 <div className="text-2xl font-semibold text-center">
                   VueJS-Laravel stack
@@ -53,8 +53,8 @@ export default function Project() {
               </div>
             </div>
           </li>
-          <li data-content="mobile">
-            <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="card shadow-lg shadow-accent w-[370px] h-[280px]">
+          <li data-content="mobile" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg shadow-accent w-[370px] h-[280px]">
               <div className="card-body ">
                 <div className="text-2xl font-semibold text-center">
                   Ionic-Laravel stack
@@ -69,8 +69,8 @@ export default function Project() {
               </div>
             </div>
           </li>
-          <li data-content="desktop">
-            <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="card shadow-lg shadow-secondary w-[370px] h-[280px]">
+          <li data-content="desktop" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg shadow-secondary w-[370px] h-[280px]">
               <div className="card-body ">
                 <div className="text-2xl font-semibold text-center">
                   Java Swing stack
@@ -85,8 +85,8 @@ export default function Project() {
               </div>
             </div>
           </li>
-          <li data-content="web">
-            <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="card shadow-lg shadow-info w-[370px] h-[280px]">
+          <li data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg shadow-info w-[370px] h-[280px]">
               <div className="card-body">
                 <div className="text-2xl font-semibold text-center">
                   TailwindCSS-PHP stack
@@ -101,8 +101,8 @@ export default function Project() {
               </div>
             </div>
           </li>
-          <li data-content="web">
-            <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="card shadow-lg shadow-info w-[370px] h-[280px]">
+          <li data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg shadow-info w-[370px] h-[280px]">
               <div className="card-body ">
                 <div className="text-2xl font-semibold text-center">
                   ReactTS-NodeJS stack
