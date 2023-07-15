@@ -8,10 +8,7 @@ export default function Graduation() {
               <p className="text-[5em] first-letter:text-[2em] font-semibold  text-primary">
                 Graduation
               </p>
-              <p className="text-4xl leading-normal md:leading-relaxed mb-2">
-                Academic Achievements
-              </p>
-              <p className="text-sm md:text-base mb-4">
+              <p className="text-sm md:text-xl first-letter:text-2xl mb-4 indent-10 text-justify">
                 Feel free to explore my academic background and educational achievements, which encompass the institutions I have attended and the degrees I have obtained. These experiences provide valuable insights into my knowledge and expertise.
               </p>
             </div>
@@ -20,16 +17,32 @@ export default function Graduation() {
                 <div className="relative wrap overflow-hidden p-10 h-full">
                   <div className="border-2-2 border-yellow-555 absolute h-full border right-[50%] rounded-sm border-primary"></div>
                   <div className="border-2-2 border-yellow-555 absolute h-full border left-[50%] rounded-sm border-primary"></div>
-                  {/* qsdfqs */}
+                  {/* qsdlkn */}
+                  <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: 100,100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div className="order-1 w-5/12"></div>
+
+                    <div className="order-1  w-5/12 px-1 py-4">
+                      <p className="mb-3 font-bold text-primary text-3xl">
+                        2022 - Nowadays
+                      </p>
+                      <h4 className="mb-3 font-bold  text-lg md:text-4xl text-current text-left">
+                        ENI, Fianarantsoa
+                      </h4>
+                      <p className="text-sm md:text-base">
+                        Third year of bachelor’s degree in computer science
+                      </p>
+                    </div>
+                  </div>
+                  {/* qsdlkn */}
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 font-bold text-primary">2018 - 2019</p>
-                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
-                        LSJC, Fianarantsoa
+                      <p className="mb-3 font-bold text-primary text-3xl">2021 - 2022</p>
+                      <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
+                        ENI, Fianarantsoa
                       </h4>
-                      <p className="text-sm md:text-base">
-                        Baccalaureate , SERIE C
+                      <p className="text-sm md:text-base ">
+                        Second year of bachelor’s degree in computer science
                       </p>
                     </div>
                   </div>
@@ -37,8 +50,8 @@ export default function Graduation() {
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: 100,100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
-                      <p className="mb-3 font-bold text-primary">2020 - 2021</p>
-                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      <p className="mb-3 font-bold text-primary text-3xl">2020 - 2021</p>
+                      <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
                         ENI, Fianarantsoa
                       </h4>
                       <h4 className="mb-3 font-bold text-lg md:text-2xl"></h4>
@@ -47,35 +60,21 @@ export default function Graduation() {
                       </p>
                     </div>
                   </div>
-                  {/* qsdlkn */}
+                  {/* qsdfqs */}
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 font-bold text-primary">2021 - 2022</p>
-                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
-                        ENI, Fianarantsoa
-                      </h4>
-                      <p className="text-sm md:text-base ">
-                        Second year of bachelor’s degree in computer science
-                      </p>
-                    </div>
-                  </div>
-                  {/* qsdlkn */}
-                  <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: 100,100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-5/12"></div>
-
-                    <div className="order-1  w-5/12 px-1 py-4">
-                      <p className="mb-3 font-bold text-primary">
-                        2022 - Nowadays
-                      </p>
-                      <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
-                        ENI, Fianarantsoa
+                      <p className="mb-3 font-bold text-primary text-3xl">2016 - 2019</p>
+                      <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
+                        LSJC, Fianarantsoa
                       </h4>
                       <p className="text-sm md:text-base">
-                        Third year of bachelor’s degree in computer science
+                        Baccalaureate , SERIE C
                       </p>
                     </div>
                   </div>
+
+
                   {/* sdfksdf */}
                 </div>
               </div>
