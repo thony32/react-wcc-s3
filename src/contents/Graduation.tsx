@@ -9,11 +9,11 @@ export default function Graduation() {
                 Graduation
               </p>
               <p className="text-xl leading-normal md:leading-relaxed mb-2">
-                Working Process of Fest
+                Academic Achievements
               </p>
               <p className="text-sm md:text-base mb-4">
-                Here’s your guide to the tech fest 2021 process. Go through all
-                the steps to know the exact process of the fest.
+
+                Feel free to explore my academic background and educational achievements, which encompass the institutions I have attended and the degrees I have obtained. These experiences provide valuable insights into my knowledge and expertise.
               </p>
             </div>
             <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
