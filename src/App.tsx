@@ -6,6 +6,7 @@ import Graduation from './contents/Graduation'
 import Heading from './contents/Heading'
 import Project from './contents/Project'
 import Skills from './contents/Skills'
+import './App.css'
 
 function App() {
 
