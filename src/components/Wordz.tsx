@@ -11,7 +11,7 @@ export default function Wordz() {
         startWords();
 
         return () => {
-            clearInterval(wordInterval.current);
+            clearInterval(wordInterval.current) ;
         };
     }, []);
 
@@ -86,7 +86,7 @@ export default function Wordz() {
                     <span className="word text-primary">Web &nbsp; developer. &nbsp; </span>
                     <span className="word text-primary">Muriel &nbsp; Arisoa</span>
                     <span className="word text-primary">Mobile &nbsp; developer. &nbsp; </span>
-                    <span className="word text-primary">UX &nbsp; / &nbsp; UI &nbsp; Design.</span>
+                    <span className="word text-primary">UX &nbsp; / &nbsp; UI &nbsp; Designer.</span>
                 </h1>
             </div>
         </div>
