@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <div className='fixed right-0 top-[50%]'>
+      <div className='fixed right-3 top-[35%] z-50'>
         <Navigation />
       </div>
       <Heading />
