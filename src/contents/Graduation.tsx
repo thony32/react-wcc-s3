@@ -5,7 +5,7 @@ export default function Graduation() {
         <div className="py-8">
           <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
             <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-              <p className=" text-primary  font-bold text-5xl first-letter:text-7xl">
+              <p className="text-[5em] first-letter:text-[2em] font-semibold tracking-wider text-primary">
                 Graduation
               </p>
               <p className="text-xl leading-normal md:leading-relaxed mb-2">
