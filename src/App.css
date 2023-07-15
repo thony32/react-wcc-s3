@@ -4,9 +4,19 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.facebook:hover {
+  filter: drop-shadow(0 0 0.7em #3b82f6);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.linkdin:hover {
+  filter: drop-shadow(0 0 0.7em #0ea5e9);
+}
+.gitlab:hover {
+  filter: drop-shadow(0 0 0.7em #f97316);
+}
+.github:hover {
+  filter: drop-shadow(0 0 0.7em #6b7280);
+}
+
+.info:hover {
+  filter: drop-shadow(0 0 0.7em #8b5cf6);
 }

@@ -4,17 +4,12 @@
   text-align: center;
   z-index: 2;
   font-size: 7vw;
-  letter-spacing: -4px;
-  position: relative;
+  letter-spacing: -5px;
 }
-/* -------------------------------- 
-    
-    Wordz
-    
-    -------------------------------- */
 .word {
   position: absolute;
   width: 100%;
+  /* top: 0; */
   left: 0;
   opacity: 0;
 }
