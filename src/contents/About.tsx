@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="relative h-screen flex items-center lg:mx-48 2xl:mx-96 rounded-xl  ">
       <div>
-        <div className="opacity-20 absolute  w-full h-full flex justify-end items-center"><h1 className="text-9xl font-bold">WHO AM I ?</h1></div>
+        <div className="opacity-25 text-current absolute w-full h-full flex justify-end items-center"><h1 className="text-9xl font-bold">WHO AM I ?</h1></div>
         <div className="z-10 object-cover  flex flex-col items-center gap-16 p-6 lg:p-12 ">
           <div uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 50vh + 50%;" className="flex gap-4">
             <h1 className="font-bold text-[5em] text-center first-letter:text-[1.5em] text-primary">
