@@ -1,19 +1,26 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Footer from './components/Footer'
+import Navigation from './components/Navigation'
+import About from './contents/About'
+import Experience from './contents/Experience'
+import Graduation from './contents/Graduation'
+import Heading from './contents/Heading'
+import Project from './contents/Project'
+import Skills from './contents/Skills'
 
 function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='fixed right-0 top-[50%]'>
+        <Navigation />
       </div>
+      <Heading />
+      <About />
+      <Skills />
+      <Experience />
+      <Graduation />
+      <Project />
+      <Footer />
     </>
   )
 }
