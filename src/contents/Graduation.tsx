@@ -5,14 +5,13 @@ export default function Graduation() {
         <div className="py-8">
           <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
             <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-              <p className="text-[5em] first-letter:text-[2em] font-semibold tracking-wider text-primary">
+              <p className="text-[5em] first-letter:text-[2em] font-semibold  text-primary">
                 Graduation
               </p>
-              <p className="text-xl leading-normal md:leading-relaxed mb-2">
+              <p className="text-4xl leading-normal md:leading-relaxed mb-2">
                 Academic Achievements
               </p>
               <p className="text-sm md:text-base mb-4">
-
                 Feel free to explore my academic background and educational achievements, which encompass the institutions I have attended and the degrees I have obtained. These experiences provide valuable insights into my knowledge and expertise.
               </p>
             </div>
