@@ -1,110 +1,128 @@
 export default function Project() {
   return (
-    <div className="flex flex-col gap-8 justify-center items-center">
+    <div className="flex flex-col gap-1 justify-center items-center">
       <div>
-        <h1 className="text-4xl font-bold text-center uppercase">
+        <h1 className="font-bold text-[3em] lg:text-[5em] text-center first-letter:text-[1em] lg:first-letter:text-[1.5em] text-primary">
           My academic Projects
         </h1>
       </div>
-      <div
-        className="flex flex-col gap-8 items-center lg:p-8 2xl:p-32"
-        uk-filter="target: .js-filter"
-      >
-        <ul className="flex gap-4 lg:gap-8">
-          <li className="uk-active" uk-filter-control>
-            <a
-              className="btn btn-primary hover:text-current hover:no-underline"
-              href="#"
-            >
-              All
+      <div className="flex flex-col gap-8 items-center lg:p-8 2xl:p-32" uk-filter="target: .js-filter">
+        <ul className="flex gap-2 lg:gap-4 z-10">
+          <li className="group" uk-filter-control="[data-all='all']">
+            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+              <div className="flex items-center gap-4">
+                <span className="font-extrabold">All</span>
+                <svg className="w-5 fill-current duration-300" viewBox="0 0 16 16">
+                  <path
+                    d="M8.04 10.471 2.938 7.953l2.085-1.03-.932-.46-3.017 1.49L8.04 11.39l6.965-3.437-3.017-1.49-.93.46 2.084 1.03z"
+                  />
+                  <path className="group-hover:translate-y-[2px] duration-300"
+                    d="M8.04 13.448 2.938 10.93 5.023 9.9l-.932-.46-3.017 1.49 6.966 3.437 6.965-3.437-3.017-1.49-.93.46 2.084 1.03z"
+                  />
+
+                  <path className="group-hover:-translate-y-[2px] duration-300" d="M8.04 1.537 1.074 4.974 8.04 8.41l6.965-3.437zm0 .919 5.102 2.518L8.04 7.492 2.938 4.974z"
+                  />
+                </svg>
+              </div>
             </a>
           </li>
-          <li uk-filter-control="[data-content='web']">
-            <a
-              className="btn btn-info hover:text-current hover:no-underline"
-              href="#"
-            >
-              Web
+          <li className="group" uk-filter-control="[data-content='web']">
+            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+              <div className="flex items-center gap-4">
+                <span className="font-extrabold">Web</span>
+                <svg className="w-4 fill-current group-hover:rotate-12 duration-300" viewBox="0 0 92 92">
+                  <path id="XMLID_1666_" d="M46,0C20.6,0,0,20.6,0,46s20.6,46,46,46s46-20.6,46-46S71.4,0,46,0z M49.7,83.8c-0.2,0-0.4,0-0.7,0.1V62.2
+	c5.2-0.1,9.9-0.2,14.2-0.5C59.4,73.4,52.3,81.2,49.7,83.8z M42.3,83.8c-2.7-2.7-9.7-10.5-13.5-22.1c4.2,0.3,9,0.5,14.2,0.5v21.7
+	C42.8,83.9,42.6,83.8,42.3,83.8z M8,46c0-2.5,0.3-5,0.7-7.4c2.2-0.4,6.4-1,12.3-1.6c-0.5,2.9-0.8,5.9-0.8,9.1c0,3.2,0.3,6.2,0.7,9
+	c-5.8-0.6-10.1-1.2-12.3-1.6C8.3,51,8,48.5,8,46z M26.3,46c0-3.4,0.4-6.6,1-9.6c4.6-0.3,9.8-0.6,15.7-0.6v20.4
+	c-5.8-0.1-11.1-0.3-15.8-0.7C26.7,52.6,26.3,49.4,26.3,46z M49.6,8.2c2.7,2.7,9.6,10.7,13.5,22.1c-4.2-0.3-8.9-0.5-14.1-0.5V8.1
+	C49.2,8.1,49.4,8.2,49.6,8.2z M43,8.1v21.7c-5.2,0.1-9.9,0.2-14.1,0.5c3.8-11.4,10.8-19.4,13.4-22.1C42.6,8.2,42.8,8.1,43,8.1z
+	 M49,56.2V35.8c5.8,0.1,11.1,0.3,15.7,0.6c0.6,3,1,6.2,1,9.6c0,3.4-0.3,6.6-0.9,9.6C60.2,55.9,54.9,56.1,49,56.2z M70.9,37
+	c5.9,0.6,10.1,1.2,12.3,1.6C83.7,41,84,43.5,84,46c0,2.5-0.3,5-0.7,7.4c-2.2,0.4-6.4,1-12.3,1.6c0.5-2.9,0.7-5.9,0.7-9.1
+	C71.7,42.9,71.4,39.8,70.9,37z M81.4,32.2c-2.8-0.4-6.8-0.9-11.9-1.4c-2.4-8.6-6.6-15.5-10.1-20.4C69.5,14.2,77.5,22.2,81.4,32.2z
+	 M32.6,10.4c-3.6,4.8-7.7,11.7-10.1,20.3c-5,0.4-9,1-11.9,1.4C14.5,22.2,22.6,14.2,32.6,10.4z M10.6,59.8c2.8,0.4,6.8,0.9,11.8,1.4
+	c2.4,8.6,6.4,15.5,10,20.3C22.4,77.6,14.5,69.7,10.6,59.8z M59.6,81.5c3.6-4.8,7.6-11.6,10-20.2c5-0.4,9-1,11.8-1.4
+	C77.5,69.7,69.6,77.6,59.6,81.5z" />
+                </svg>
+              </div>
             </a>
           </li>
-          <li uk-filter-control="[data-content='mobile']">
-            <a
-              className="btn btn-accent hover:text-current hover:no-underline"
-              href="#"
-            >
-              Mobile
+          <li className="group" uk-filter-control="[data-content='mobile']">
+            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+              <div className="flex items-center gap-4">
+                <span className="font-extrabold">Mobile</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 group-hover:scale-110 duration-200">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                </svg>
+              </div>
             </a>
           </li>
-          <li uk-filter-control="[data-content='desktop']">
-            <a
-              className="btn btn-secondary hover:text-current hover:no-underline"
-              href="#"
-            >
-              Desktop
+          <li className="group" uk-filter-control="[data-content='desktop']">
+            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+              <div className="flex items-center gap-4">
+                <span>Desktop</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 group-hover:-translate-x-2 duration-300">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                </svg>
+              </div>
             </a>
           </li>
         </ul>
-
-        <ul
-          className="js-filter flex flex-col lg:flex-row lg:flex-wrap gap-12"
-          uk-grid
-        >
-          <li
-            data-content="web"
-            uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true"
-          >
-            <div className="card shadow-lg shadow-info w-[370px] h-[280px]">
-              <div className="card-body ">
-                <div className="text-2xl font-semibold text-center">
-                  VueJS-Laravel stack
+        <ul className="js-filter flex flex-col lg:flex-row lg:flex-wrap gap-12">
+          <li data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+              <div className="card-body space-y-4">
+                <h1 className="text-current text-3xl font-bold">Gestion de comptes bancaires</h1>
+                <div className="text-2xl font-semibold">
+                  <div className="flex gap-4">
+                    <svg
+                      fill="white"
+                      viewBox="0 -2 28 28"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6"
+                    >
+                      <path d="m22.313 0h5.688l-14 24-14-24h11l3 5.563 3.5-5.563zm-18.813 2 10.5 18 10.5-18h-3.375l-7.125 12.375-7.125-12.375z" />
+                    </svg>
+                    <svg
+                      fill="white"
+                      viewBox="0 0 32 32"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6"
+                    >
+                      <title>laravel</title>
+                      <path d="M13.143 23.585l10.46-5.97-4.752-2.736-10.453 6.019zM24.084 11.374l-4.757-2.736v5.417l4.758 2.737zM24.559 5.078l-4.756 2.736 4.756 2.736 4.755-2.737zM9.911 18.928l2.76-1.589v-11.934l-4.758 2.738v11.934zM7.437 1.846l-4.756 2.737 4.756 2.737 4.753-2.737zM2.204 5.406v18.452l10.464 6.022v-5.471l-5.472-3.096c-0.018-0.013-0.032-0.027-0.051-0.039-0.014-0.013-0.030-0.023-0.044-0.034l-0.001-0.003c-0.015-0.015-0.028-0.031-0.039-0.049l-0.001-0.001c-0.014-0.013-0.025-0.028-0.035-0.045l-0.001-0.001h-0.003c-0.008-0.015-0.016-0.035-0.024-0.055l-0.001-0.004c-0.007-0.015-0.015-0.032-0.022-0.051l-0.001-0.003c-0.004-0.020-0.008-0.045-0.010-0.070l-0-0.002c-0.003-0.015-0.006-0.033-0.008-0.051l-0-0.001v-12.759l-2.757-1.59zM24.085 23.857v-5.422l-10.464 5.974v5.47zM29.789 14.055v-5.417l-4.756 2.737v5.417zM30.725 7.69c0.011 0.038 0.018 0.081 0.018 0.126v0 6.513c-0 0.176-0.095 0.329-0.237 0.411l-0.002 0.001-5.468 3.149v6.241c-0 0.175-0.095 0.328-0.236 0.411l-0.002 0.001-11.416 6.57c-0.024 0.013-0.052 0.025-0.081 0.033l-0.003 0.001-0.030 0.013c-0.036 0.011-0.078 0.017-0.121 0.017s-0.085-0.006-0.125-0.018l0.003 0.001c-0.015-0.004-0.027-0.009-0.039-0.016l0.001 0.001c-0.031-0.011-0.057-0.021-0.082-0.033l0.004 0.002-11.413-6.57c-0.144-0.084-0.239-0.237-0.239-0.412v0-19.548c0-0.044 0.007-0.087 0.019-0.127l-0.001 0.003c0.004-0.015 0.013-0.025 0.018-0.040 0.009-0.029 0.019-0.053 0.030-0.076l-0.001 0.003c0.008-0.016 0.018-0.030 0.029-0.042l-0 0 0.042-0.057 0.047-0.034c0.018-0.015 0.034-0.030 0.052-0.043h0.001l5.708-3.285c0.068-0.040 0.15-0.064 0.237-0.064s0.169 0.024 0.239 0.065l-0.002-0.001 5.71 3.285c0.019 0.013 0.035 0.027 0.051 0.042l-0-0 0.048 0.034c0.016 0.018 0.025 0.038 0.042 0.057 0.012 0.012 0.022 0.026 0.031 0.041l0.001 0.001c0.010 0.020 0.020 0.044 0.029 0.069l0.001 0.004 0.016 0.040c0.011 0.035 0.018 0.076 0.018 0.118 0 0.002 0 0.004-0 0.006v-0 12.208l4.756-2.737v-6.241c0-0.001 0-0.002 0-0.002 0-0.043 0.006-0.085 0.017-0.125l-0.001 0.003c0.004-0.013 0.013-0.025 0.016-0.040 0.010-0.030 0.020-0.054 0.032-0.078l-0.002 0.004c0.009-0.015 0.023-0.025 0.032-0.042 0.015-0.019 0.027-0.038 0.042-0.054 0.014-0.013 0.029-0.025 0.045-0.035l0.001-0.001c0.018-0.013 0.033-0.029 0.052-0.040h0.001l5.708-3.286c0.068-0.040 0.15-0.064 0.237-0.064s0.169 0.024 0.239 0.065l-0.002-0.001 5.708 3.286c0.020 0.013 0.034 0.027 0.053 0.039 0.015 0.013 0.032 0.023 0.046 0.035 0.016 0.018 0.028 0.038 0.043 0.056 0.011 0.012 0.021 0.026 0.030 0.040l0.001 0.001c0.012 0.022 0.022 0.047 0.030 0.073l0.001 0.003c0.008 0.012 0.014 0.025 0.019 0.039l0 0.001z"></path>
+                    </svg>
+                  </div>
                 </div>
-                <h1>Gestion de comptes bancaires</h1>
-                <p>
+                <p className="text-sm">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil,
-                  mollitia soluta ab repellat, fuga illo. Optio recusandae ipsam
-                  accusamus inventore in labore necessitatibus blanditiis!
+                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
                 </p>
-                <div className="flex gap-4 justify-end ">
-                  <svg
-                    fill="white"
-                    viewBox="0 -2 28 28"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
-                  >
-                    <path d="m22.313 0h5.688l-14 24-14-24h11l3 5.563 3.5-5.563zm-18.813 2 10.5 18 10.5-18h-3.375l-7.125 12.375-7.125-12.375z" />
-                  </svg>
-                  <svg
-                    fill="white"
-                    viewBox="0 0 32 32"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
-                  >
-                    <title>laravel</title>
-                    <path d="M13.143 23.585l10.46-5.97-4.752-2.736-10.453 6.019zM24.084 11.374l-4.757-2.736v5.417l4.758 2.737zM24.559 5.078l-4.756 2.736 4.756 2.736 4.755-2.737zM9.911 18.928l2.76-1.589v-11.934l-4.758 2.738v11.934zM7.437 1.846l-4.756 2.737 4.756 2.737 4.753-2.737zM2.204 5.406v18.452l10.464 6.022v-5.471l-5.472-3.096c-0.018-0.013-0.032-0.027-0.051-0.039-0.014-0.013-0.030-0.023-0.044-0.034l-0.001-0.003c-0.015-0.015-0.028-0.031-0.039-0.049l-0.001-0.001c-0.014-0.013-0.025-0.028-0.035-0.045l-0.001-0.001h-0.003c-0.008-0.015-0.016-0.035-0.024-0.055l-0.001-0.004c-0.007-0.015-0.015-0.032-0.022-0.051l-0.001-0.003c-0.004-0.020-0.008-0.045-0.010-0.070l-0-0.002c-0.003-0.015-0.006-0.033-0.008-0.051l-0-0.001v-12.759l-2.757-1.59zM24.085 23.857v-5.422l-10.464 5.974v5.47zM29.789 14.055v-5.417l-4.756 2.737v5.417zM30.725 7.69c0.011 0.038 0.018 0.081 0.018 0.126v0 6.513c-0 0.176-0.095 0.329-0.237 0.411l-0.002 0.001-5.468 3.149v6.241c-0 0.175-0.095 0.328-0.236 0.411l-0.002 0.001-11.416 6.57c-0.024 0.013-0.052 0.025-0.081 0.033l-0.003 0.001-0.030 0.013c-0.036 0.011-0.078 0.017-0.121 0.017s-0.085-0.006-0.125-0.018l0.003 0.001c-0.015-0.004-0.027-0.009-0.039-0.016l0.001 0.001c-0.031-0.011-0.057-0.021-0.082-0.033l0.004 0.002-11.413-6.57c-0.144-0.084-0.239-0.237-0.239-0.412v0-19.548c0-0.044 0.007-0.087 0.019-0.127l-0.001 0.003c0.004-0.015 0.013-0.025 0.018-0.040 0.009-0.029 0.019-0.053 0.030-0.076l-0.001 0.003c0.008-0.016 0.018-0.030 0.029-0.042l-0 0 0.042-0.057 0.047-0.034c0.018-0.015 0.034-0.030 0.052-0.043h0.001l5.708-3.285c0.068-0.040 0.15-0.064 0.237-0.064s0.169 0.024 0.239 0.065l-0.002-0.001 5.71 3.285c0.019 0.013 0.035 0.027 0.051 0.042l-0-0 0.048 0.034c0.016 0.018 0.025 0.038 0.042 0.057 0.012 0.012 0.022 0.026 0.031 0.041l0.001 0.001c0.010 0.020 0.020 0.044 0.029 0.069l0.001 0.004 0.016 0.040c0.011 0.035 0.018 0.076 0.018 0.118 0 0.002 0 0.004-0 0.006v-0 12.208l4.756-2.737v-6.241c0-0.001 0-0.002 0-0.002 0-0.043 0.006-0.085 0.017-0.125l-0.001 0.003c0.004-0.013 0.013-0.025 0.016-0.040 0.010-0.030 0.020-0.054 0.032-0.078l-0.002 0.004c0.009-0.015 0.023-0.025 0.032-0.042 0.015-0.019 0.027-0.038 0.042-0.054 0.014-0.013 0.029-0.025 0.045-0.035l0.001-0.001c0.018-0.013 0.033-0.029 0.052-0.040h0.001l5.708-3.286c0.068-0.040 0.15-0.064 0.237-0.064s0.169 0.024 0.239 0.065l-0.002-0.001 5.708 3.286c0.020 0.013 0.034 0.027 0.053 0.039 0.015 0.013 0.032 0.023 0.046 0.035 0.016 0.018 0.028 0.038 0.043 0.056 0.011 0.012 0.021 0.026 0.030 0.040l0.001 0.001c0.012 0.022 0.022 0.047 0.030 0.073l0.001 0.003c0.008 0.012 0.014 0.025 0.019 0.039l0 0.001z"></path>
+                <div className="flex justify-end">
+                  <svg className="w-4 fill-current group-hover:rotate-12 duration-300" viewBox="0 0 92 92">
+                    <path id="XMLID_1666_" d="M46,0C20.6,0,0,20.6,0,46s20.6,46,46,46s46-20.6,46-46S71.4,0,46,0z M49.7,83.8c-0.2,0-0.4,0-0.7,0.1V62.2
+	c5.2-0.1,9.9-0.2,14.2-0.5C59.4,73.4,52.3,81.2,49.7,83.8z M42.3,83.8c-2.7-2.7-9.7-10.5-13.5-22.1c4.2,0.3,9,0.5,14.2,0.5v21.7
+	C42.8,83.9,42.6,83.8,42.3,83.8z M8,46c0-2.5,0.3-5,0.7-7.4c2.2-0.4,6.4-1,12.3-1.6c-0.5,2.9-0.8,5.9-0.8,9.1c0,3.2,0.3,6.2,0.7,9
+	c-5.8-0.6-10.1-1.2-12.3-1.6C8.3,51,8,48.5,8,46z M26.3,46c0-3.4,0.4-6.6,1-9.6c4.6-0.3,9.8-0.6,15.7-0.6v20.4
+	c-5.8-0.1-11.1-0.3-15.8-0.7C26.7,52.6,26.3,49.4,26.3,46z M49.6,8.2c2.7,2.7,9.6,10.7,13.5,22.1c-4.2-0.3-8.9-0.5-14.1-0.5V8.1
+	C49.2,8.1,49.4,8.2,49.6,8.2z M43,8.1v21.7c-5.2,0.1-9.9,0.2-14.1,0.5c3.8-11.4,10.8-19.4,13.4-22.1C42.6,8.2,42.8,8.1,43,8.1z
+	 M49,56.2V35.8c5.8,0.1,11.1,0.3,15.7,0.6c0.6,3,1,6.2,1,9.6c0,3.4-0.3,6.6-0.9,9.6C60.2,55.9,54.9,56.1,49,56.2z M70.9,37
+	c5.9,0.6,10.1,1.2,12.3,1.6C83.7,41,84,43.5,84,46c0,2.5-0.3,5-0.7,7.4c-2.2,0.4-6.4,1-12.3,1.6c0.5-2.9,0.7-5.9,0.7-9.1
+	C71.7,42.9,71.4,39.8,70.9,37z M81.4,32.2c-2.8-0.4-6.8-0.9-11.9-1.4c-2.4-8.6-6.6-15.5-10.1-20.4C69.5,14.2,77.5,22.2,81.4,32.2z
+	 M32.6,10.4c-3.6,4.8-7.7,11.7-10.1,20.3c-5,0.4-9,1-11.9,1.4C14.5,22.2,22.6,14.2,32.6,10.4z M10.6,59.8c2.8,0.4,6.8,0.9,11.8,1.4
+	c2.4,8.6,6.4,15.5,10,20.3C22.4,77.6,14.5,69.7,10.6,59.8z M59.6,81.5c3.6-4.8,7.6-11.6,10-20.2c5-0.4,9-1,11.8-1.4
+	C77.5,69.7,69.6,77.6,59.6,81.5z" />
                   </svg>
                 </div>
               </div>
             </div>
           </li>
-          <li
-            data-content="mobile"
-            uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true"
-          >
-            <div className="card shadow-lg shadow-accent w-[370px] h-[280px]">
-              <div className="card-body ">
-                <div className="text-2xl font-semibold text-center">
-                  Ionic-Laravel stack
-                </div>
-                <h1>Gestion de stock de produits alimentaires</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil,
-                  mollitia soluta ab repellat, fuga illo. Optio recusandae ipsam
-                  accusamus inventore in labore necessitatibus blanditiis!
-                </p>
-                <div className="flex gap-4 justify-end">
+          <li data-all='all' data-content="mobile" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+              <div className="card-body space-y-4">
+                <h1 className="text-current text-3xl font-bold">Gestion de stock de produits alimentaires</h1>
+                <div className="flex gap-4">
                   <svg
                     fill="white"
                     viewBox="0 0 32 32"
@@ -124,13 +142,19 @@ export default function Project() {
                     <path d="M13.143 23.585l10.46-5.97-4.752-2.736-10.453 6.019zM24.084 11.374l-4.757-2.736v5.417l4.758 2.737zM24.559 5.078l-4.756 2.736 4.756 2.736 4.755-2.737zM9.911 18.928l2.76-1.589v-11.934l-4.758 2.738v11.934zM7.437 1.846l-4.756 2.737 4.756 2.737 4.753-2.737zM2.204 5.406v18.452l10.464 6.022v-5.471l-5.472-3.096c-0.018-0.013-0.032-0.027-0.051-0.039-0.014-0.013-0.030-0.023-0.044-0.034l-0.001-0.003c-0.015-0.015-0.028-0.031-0.039-0.049l-0.001-0.001c-0.014-0.013-0.025-0.028-0.035-0.045l-0.001-0.001h-0.003c-0.008-0.015-0.016-0.035-0.024-0.055l-0.001-0.004c-0.007-0.015-0.015-0.032-0.022-0.051l-0.001-0.003c-0.004-0.020-0.008-0.045-0.010-0.070l-0-0.002c-0.003-0.015-0.006-0.033-0.008-0.051l-0-0.001v-12.759l-2.757-1.59zM24.085 23.857v-5.422l-10.464 5.974v5.47zM29.789 14.055v-5.417l-4.756 2.737v5.417zM30.725 7.69c0.011 0.038 0.018 0.081 0.018 0.126v0 6.513c-0 0.176-0.095 0.329-0.237 0.411l-0.002 0.001-5.468 3.149v6.241c-0 0.175-0.095 0.328-0.236 0.411l-0.002 0.001-11.416 6.57c-0.024 0.013-0.052 0.025-0.081 0.033l-0.003 0.001-0.030 0.013c-0.036 0.011-0.078 0.017-0.121 0.017s-0.085-0.006-0.125-0.018l0.003 0.001c-0.015-0.004-0.027-0.009-0.039-0.016l0.001 0.001c-0.031-0.011-0.057-0.021-0.082-0.033l0.004 0.002-11.413-6.57c-0.144-0.084-0.239-0.237-0.239-0.412v0-19.548c0-0.044 0.007-0.087 0.019-0.127l-0.001 0.003c0.004-0.015 0.013-0.025 0.018-0.040 0.009-0.029 0.019-0.053 0.030-0.076l-0.001 0.003c0.008-0.016 0.018-0.030 0.029-0.042l-0 0 0.042-0.057 0.047-0.034c0.018-0.015 0.034-0.030 0.052-0.043h0.001l5.708-3.285c0.068-0.040 0.15-0.064 0.237-0.064s0.169 0.024 0.239 0.065l-0.002-0.001 5.71 3.285c0.019 0.013 0.035 0.027 0.051 0.042l-0-0 0.048 0.034c0.016 0.018 0.025 0.038 0.042 0.057 0.012 0.012 0.022 0.026 0.031 0.041l0.001 0.001c0.010 0.020 0.020 0.044 0.029 0.069l0.001 0.004 0.016 0.040c0.011 0.035 0.018 0.076 0.018 0.118 0 0.002 0 0.004-0 0.006v-0 12.208l4.756-2.737v-6.241c0-0.001 0-0.002 0-0.002 0-0.043 0.006-0.085 0.017-0.125l-0.001 0.003c0.004-0.013 0.013-0.025 0.016-0.040 0.010-0.030 0.020-0.054 0.032-0.078l-0.002 0.004c0.009-0.015 0.023-0.025 0.032-0.042 0.015-0.019 0.027-0.038 0.042-0.054 0.014-0.013 0.029-0.025 0.045-0.035l0.001-0.001c0.018-0.013 0.033-0.029 0.052-0.040h0.001l5.708-3.286c0.068-0.040 0.15-0.064 0.237-0.064s0.169 0.024 0.239 0.065l-0.002-0.001 5.708 3.286c0.020 0.013 0.034 0.027 0.053 0.039 0.015 0.013 0.032 0.023 0.046 0.035 0.016 0.018 0.028 0.038 0.043 0.056 0.011 0.012 0.021 0.026 0.030 0.040l0.001 0.001c0.012 0.022 0.022 0.047 0.030 0.073l0.001 0.003c0.008 0.012 0.014 0.025 0.019 0.039l0 0.001z"></path>
                   </svg>
                 </div>
+                <p className="text-sm">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
+                </p>
+                <div className="flex justify-end">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 group-hover:scale-110 duration-200">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                  </svg>
+                </div>
               </div>
             </div>
           </li>
-          <li
-            data-content="desktop"
-            uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true"
-          >
+          <li data-all='all' data-content="desktop" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg shadow-secondary w-[370px] h-[280px]">
               <div className="card-body ">
                 <div className="text-2xl font-semibold text-center">
@@ -199,10 +223,7 @@ export default function Project() {
               </div>
             </div>
           </li>
-          <li
-            data-content="web"
-            uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true"
-          >
+          <li data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg shadow-info w-[370px] h-[280px]">
               <div className="card-body">
                 <div className="text-2xl font-semibold text-center">
@@ -257,10 +278,7 @@ export default function Project() {
               </div>
             </div>
           </li>
-          <li
-            data-content="web"
-            uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true"
-          >
+          <li data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg shadow-info w-[370px] h-[280px]">
               <div className="card-body ">
                 <div className="text-2xl font-semibold text-center">

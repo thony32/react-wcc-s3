@@ -5,9 +5,7 @@ export default function About() {
         <div className="opacity-25 text-current absolute w-full h-full flex justify-end items-center"><h1 className="text-9xl font-bold">WHO AM I ?</h1></div>
         <div className="z-10 object-cover flex flex-col items-center gap-16 p-6 lg:p-12 ">
           <div uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 50vh + 50%;" className="flex gap-4">
-
             <h1 className="font-bold text-[3em] lg:text-[5em] text-center first-letter:text-[1em] lg:first-letter:text-[1.5em] text-primary">
-
               About me
             </h1>
           </div>
