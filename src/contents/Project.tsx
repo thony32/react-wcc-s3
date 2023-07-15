@@ -10,7 +10,7 @@ export default function Project() {
         className="flex flex-col gap-8 items-center lg:p-8 2xl:p-32"
         uk-filter="target: .js-filter"
       >
-        <ul className="flex gap-8">
+        <ul className="flex gap-4 lg:gap-8">
           <li className="uk-active" uk-filter-control>
             <a
               className="btn btn-primary hover:text-current hover:no-underline"
