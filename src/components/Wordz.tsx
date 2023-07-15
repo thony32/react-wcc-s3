@@ -80,12 +80,15 @@ export default function Wordz() {
         wordArray.current.push(letters);
     }
     return (
-        <div className="bannertxt">
-            <h1>
-                <span className="word">Muriel &nbsp; Arisoa &nbsp; RANAIVOSON.</span>
-                <span className="word">Web &nbsp; developer. &nbsp; </span>
-                <span className="word">ENI &nbsp; Fianarantsoa</span>
-            </h1>
+        <div className="relative h-[100%] flex items-center">
+            <div className="bannertxt">
+                <h1>
+                    <span className="word text-primary">Web &nbsp; developer. &nbsp; </span>
+                    <span className="word text-primary">Muriel &nbsp; Arisoa</span>
+                    <span className="word text-primary">Mobile &nbsp; developer. &nbsp; </span>
+                    <span className="word text-primary">UX &nbsp; / &nbsp; UI &nbsp; Design.</span>
+                </h1>
+            </div>
         </div>
     )
 }
