@@ -12,14 +12,16 @@ export default function Skills() {
                     <h1 className="text-[3em] lg:text-[5em] first-letter:text-[1em] lg:first-letter:text-[2em] font-semibold tracking-wider text-primary">Stacks</h1>
                     <Stacks />
                 </div>
-                <div className="space-y-16">
-                    <div className="space-y-5">
-                        <h1 className="text-[3em] first-letter:text-[1.6em] font-semibold tracking-wider text-primary">Others</h1>
-                        <Others />
-                    </div>
-                    <div className="space-y-5">
-                        <h1 className="text-[3em] first-letter:text-[1.6em] font-semibold tracking-wider text-primary">Language</h1>
-                        <Language />
+                <div className="flex items-center">
+                    <div className="space-y-16">
+                        <div className="space-y-5">
+                            <h1 className="text-[3em] first-letter:text-[1.6em] font-semibold tracking-wider text-primary">Others</h1>
+                            <Others />
+                        </div>
+                        <div className="space-y-5">
+                            <h1 className="text-[3em] first-letter:text-[1.6em] font-semibold tracking-wider text-primary">Language</h1>
+                            <Language />
+                        </div>
                     </div>
                 </div>
             </div>
