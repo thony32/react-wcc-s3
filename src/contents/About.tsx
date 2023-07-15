@@ -3,7 +3,7 @@ export default function About() {
     <div className="relative h-full  lg:mx-48 2xl:mx-96 rounded-xl  ">
       <div className="opacity-20 absolute  w-full h-full flex justify-end items-center"><h1 className="text-9xl font-bold">WHO AM I ?</h1></div>
       <div className="z-10 object-cover  flex flex-col items-center gap-8 p-6 lg:p-12 ">
-        <div className="flex gap-4">
+        <div  uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 50vh + 50%;" className="flex gap-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -24,7 +24,7 @@ export default function About() {
           </h1>
         </div>
         <div className="border-2 border-gray-100 w-2/3 lg:w-1/3"></div>
-        <div>
+        <div uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; end: 50vh + 50%;">
           <p className="text-2xl indent-4 lg:indent-16 first-letter:text-4xl">
             My Name is{" "}
             <span className="font-bold text-3xl text-info">Muriel Arisoa</span>,
@@ -36,7 +36,7 @@ export default function About() {
             attention to detail and combining form with function.
           </p>
         </div>
-        <div>
+        <div uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; end: 50vh + 50%;">
           <p className="text-2xl indent-4 lg:indent-16 first-letter:text-4xl">
             Taking on novel challenges invigorates me. I am motivated by
             problem-solving and find joy in discovering creative solutions to
@@ -45,7 +45,7 @@ export default function About() {
             seek ways to improve the digital experiences
           </p>
         </div>
-        <div>
+        <div uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; end: 50vh + 50%;">
           <p className="text-2xl indent-4 lg:indent-16 first-letter:text-4xl">
             I'm constantly expanding my skill set and staying up to date with
             emerging technologies and industry best practices. I love taking on
