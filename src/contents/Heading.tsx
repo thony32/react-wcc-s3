@@ -17,15 +17,15 @@ export default function Heading() {
   }, []);
   return (
     <div className="h-screen relative">
-      <div className="fixed top-0 left-0 w-full flex justify-center">
-        <img className={scrollTop > 200 ? "w-[15%] translate-x-[250%] duration-1000 opacity-30 rounded-full shadow-lg" : "w-[40%] duration-1000 opacity-30 rounded-full shadow-lg"} src="/images/IMG_20230715_101821.png" alt="me" />
+      <div className="fixed top-0 left-0 w-full flex justify-center z-0">
+        <img className={scrollTop > 200 ? "w-[25%] duration-1000 opacity-10 rounded-full shadow-lg" : "w-[40%] duration-1000 opacity-30 rounded-full shadow-lg"} src="/images/IMG_20230715_101821.png" alt="me" />
       </div>
       <Wordz />
       <div className="absolute top-0 h-full px-[10%] py-[5%] w-full left-0">
         <div className="h-full relative">
           {/* Personal Info */}
-          <div className="absolute top-0 left-0 space-y-3">
-            <div className="shadow-2xl card bg-base-100 duration-300 group info">
+          <div className={scrollTop > 200 ? "fixed duration-500 top-3 left-3" : "fixed duration-500 top-[10%] left-[10%] space-y-3"}>
+            <div className={scrollTop > 200 ? "shadow-2xl card bg-base-100 duration-300 scale-75 group info" : "shadow-2xl card bg-base-100 duration-300 group info"}>
               <div className="flex gap-5 p-5">
                 <svg className="w-7 fill-current group-hover:fill-primary duration-75" viewBox="0 0 24 24" fill="none">
                   <path className="group-hover:-translate-x-[2.5px] duration-300" fill-rule="evenodd" clip-rule="evenodd"
@@ -46,7 +46,7 @@ export default function Heading() {
                 </div>
               </div>
             </div>
-            <div className="shadow-2xl bg-base-100 duration-300 group info card">
+            <div className={scrollTop > 200 ? "shadow-2xl card bg-base-100 duration-300 scale-75 group info" : "shadow-2xl card bg-base-100 duration-300 group info"}>
               <div className="flex gap-5 p-5">
                 <svg className="w-7 stroke-current group-hover:stroke-primary duration-75" viewBox="-0.5 0 25 25" fill="none">
                   <path
@@ -67,9 +67,9 @@ export default function Heading() {
                 </div>
               </div>
             </div>
-            <div className="shadow-2xl card bg-base-100 duration-300 group info">
+            <div className={scrollTop > 200 ? "shadow-2xl card bg-base-100 duration-300 scale-75 group info" : "shadow-2xl card bg-base-100 duration-300 group info"}>
               <div className="flex gap-5 p-5">
-                <svg className="w-7 stroke-current group-hover:stroke-primary duration-75" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <svg className="w-7 stroke-current group-hover:stroke-primary duration-300 group-hover:-translate-y-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
