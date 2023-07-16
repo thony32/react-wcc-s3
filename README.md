@@ -2,24 +2,13 @@
 
 Bienvenue sur le portfolio de Muriel Arisoa RANAIVOSON !
 
-## Codes de Couleurs
+## Explication des Codes de Couleurs
 
-### Rose
+### #db2777 : capturer la féminité et la douceur, tout en créant une esthétique énergique et confiante qui établit une connexion émotionnelle avec mon public cible.
 
-Le choix de la couleur rose dans ce portfolio féminin est intentionnel et symbolique. En utilisant une palette de couleurs roses, j'ai voulu créer une atmosphère chaleureuse et accueillante, qui reflète ma personnalité et met en valeur mon travail.
+### #ec4899 : créer une atmosphère douce, légère et délicate, en harmonie avec des thèmes de fraîcheur, de pureté et de féminité, offrant ainsi une expérience visuelle apaisante et charmante au public cible.
 
-### Fond sombre
+### #1D7DDD : représenter une ambiance vibrante, dynamique et rafraîchissante, capturant l'essence de l'innovation, de la créativité et de la confiance, et suscitant l'attention et l'enthousiasme du public cible.
 
-1. **Mise en valeur du contenu** : Le fond sombre permet de mettre en évidence le contenu du portfolio, notamment les informations, les compétences, les projets personnels et académiques, ainsi que les expériences professionnelles. Les éléments textuels et visuels ressortent davantage sur un fond sombre, ce qui facilite la lecture et rend l'ensemble plus attractif.
-
-2. **Contraste et lisibilité** : Le contraste entre le texte et le fond sombre améliore la lisibilité. Les couleurs claires utilisées pour le texte, les icônes et les éléments graphiques ressortent nettement, offrant une expérience de lecture agréable.
-
-3. **Élégance et modernité** : Le fond sombre confère une touche d'élégance et de modernité à la conception du portfolio. Il crée une ambiance sophistiquée et professionnelle, tout en apportant une esthétique contemporaine.
-
-## Conclusion
-
-Les codes de couleurs utilisés dans ce portfolio, tels que le rose et le fond sombre, sont soigneusement sélectionnés pour représenter une identité féminine, créer une ambiance accueillante et mettre en valeur le contenu de manière élégante. J'espère que vous apprécierez votre visite et que vous découvrirez mes compétences et réalisations avec plaisir.
-
-Merci beaucoup!
 
 https://murielari.netlify.app
