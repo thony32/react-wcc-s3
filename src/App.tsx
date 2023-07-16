@@ -31,7 +31,7 @@ function App() {
           <Experience />
         </div>
         <div data-section id="div_project">
-          {/* <Project /> */}
+          <Project />
         </div>
       </div>
 
