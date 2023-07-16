@@ -234,7 +234,7 @@ export default function Project() {
                   </svg>
                 </div>
                 <p className="text-sm">
-                Student grade management includes recording performance, generating reports, and safeguarding data privacy.
+                Student grade management follows the MVC pattern, where the model handles data recording, the view presents reports, and the controller ensures data flow and privacy.
                 </p>
                 <div className="flex justify-end">
                   <Web />
