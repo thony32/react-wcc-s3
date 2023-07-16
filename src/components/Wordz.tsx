@@ -85,7 +85,7 @@ export default function Wordz() {
                 <h1>
                     <span className="word text-pink-500">Web &nbsp; developer. &nbsp; </span>
                     <span className="word text-pink-500">Muriel &nbsp; Arisoa</span>
-                    <span className="word text-pink-500">Web &nbsp; developer. &nbsp; </span>
+                    <span className="word text-pink-500">Mobile &nbsp; developer. &nbsp; </span>
                     <span className="word text-pink-500">UX &nbsp; / &nbsp; UI &nbsp; Designer.</span>
                 </h1>
             </div>
