@@ -64,7 +64,7 @@ export default function Graduation() {
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 font-bold text-primary text-3xl">2016 - 2019</p>
+                      <p className="mb-3 font-bold text-primary text-3xl">2018 - 2019</p>
                       <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
                         LSJC, Fianarantsoa
                       </h4>
