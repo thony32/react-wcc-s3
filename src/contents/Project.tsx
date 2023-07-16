@@ -50,7 +50,7 @@ function Desktop() {
 export default function Project() {
   const [activeProject , setActiveProject] = useState("all")
   return (
-    <div className="flex flex-col gap-1 justify-center items-center" id="Projects">
+    <div className="flex flex-col gap-1 justify-center items-center relative" id="Projects">
       <div>
         <h1 className="font-bold text-[2em] lg:text-[5em] text-center first-letter:text-[1.5em] lg:first-letter:text-[1.5em] text-pink-500">
           My academic Projects
@@ -274,6 +274,9 @@ export default function Project() {
             </div>
           </li>
         </ul>
+      </div>
+      <div className="absolute bottom-10">
+        <h1 className="font-extrabold opacity-50 font-sans text-[5vw] bordered-text">Aspire , Act , Achieve</h1>
       </div>
     </div>
   );

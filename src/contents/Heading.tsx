@@ -69,7 +69,7 @@ export default function Heading() {
                 </svg>
                 <div className="flex flex-col">
                   <span className="text-xs">Phone</span>
-                  <label className="font-bold">+261 34 66 857 21</label>
+                  <label className="font-bold text-xs 2xl:text-base">+261 34 66 857 21</label>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Heading() {
 
                 <div className="flex flex-col">
                   <span className="text-xs">Location</span>
-                  <label className="font-bold">Fianarantsoa , 301</label>
+                  <label className="font-bold text-xs 2xl:text-base">Fianarantsoa , 301</label>
                 </div>
               </div>
             </div>
