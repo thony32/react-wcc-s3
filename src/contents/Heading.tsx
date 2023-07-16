@@ -46,9 +46,9 @@ export default function Heading() {
                   : "shadow-2xl card bg-base-100 duration-300 group info"
               }
             >
-              <div className="flex gap-5 p-5">
+              <div className="flex gap-5 p-3 2xl:p-5">
                 <svg
-                  className="w-7 fill-current group-hover:fill-pink-600 duration-75"
+                  className="w-5 2xl:w-7 fill-current group-hover:fill-pink-600 duration-75"
                   viewBox="0 0 24 24"
                   fill="none"
                 >
@@ -80,9 +80,9 @@ export default function Heading() {
                   : "shadow-2xl card bg-base-100 duration-300 group info"
               }
             >
-              <div className="flex gap-5 p-5">
+              <div className="flex gap-5 p-3 2xl:p-5">
                 <svg
-                  className="w-7 stroke-current group-hover:stroke-pink-600 duration-75"
+                  className="w-5 2xl:w-7 stroke-current group-hover:stroke-pink-600 duration-75"
                   viewBox="-0.5 0 25 25"
                   fill="none"
                 >
@@ -115,7 +115,7 @@ export default function Heading() {
                 </svg>
                 <div className="flex flex-col">
                   <span className="text-xs">Mail</span>
-                  <label className="font-bold"><a href="mailto:murielarisoaran@gmail.com">murielarisoaran@gmail.com</a></label>
+                  <label className="font-bold  text-xs 2xl:text-base"><a href="mailto:murielarisoaran@gmail.com">murielarisoaran@gmail.com</a></label>
                 </div>
               </div>
             </div>
@@ -126,9 +126,9 @@ export default function Heading() {
                   : "shadow-2xl card bg-base-100 duration-300 group info"
               }
             >
-              <div className="flex gap-5 p-5">
+              <div className="flex gap-5 p-3 2xl:p-5">
                 <svg
-                  className="w-7 stroke-current group-hover:stroke-pink-600 duration-300 group-hover:-translate-y-2"
+                  className="w-5 2xl:w-7 stroke-current group-hover:stroke-pink-600 duration-300 group-hover:-translate-y-2"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="px-[10%] 2xl:px-0">
       <div className="fixed top-3 left-[15%] lg:left-[95%] lg:right-6 2xl:left-[97%] 2xl:right-3 lg:top-[35%] z-50">
         <Navigation />
       </div>
@@ -21,7 +21,7 @@ function App() {
         <div data-section id="div_about">
           <About />
         </div>
-        <div data-section id="div_skills">
+        <div className="!mt-[10%]" data-section id="div_skills">
           <Skills />
         </div>
         <div data-section id="div_graduation">
