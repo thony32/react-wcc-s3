@@ -93,7 +93,7 @@ export default function Project() {
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
               <div className="card-body space-y-4">
-                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Gestion de comptes bancaires</h1>
+                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Bank account management</h1>
                 <div className="text-2xl font-semibold">
                   <div className="flex gap-4">
                     <svg viewBox="0 -2 28 28" className="w-6 h-6 fill-current group-hover:fill-primary duration-200">
@@ -105,8 +105,7 @@ export default function Project() {
                   </div>
                 </div>
                 <p className="text-sm">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
+                  Managing accounts encompasses a range of essential functionalities, including facilitating withdrawals, enabling seamless transfers, and overseeing secure transactions.
                 </p>
                 <div className="flex justify-end">
                   <Web />
@@ -117,7 +116,7 @@ export default function Project() {
           <li className="group" data-all='all' data-content="mobile" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
               <div className="card-body space-y-4">
-                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Gestion de stock de produits alimentaires</h1>
+                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Food stock management</h1>
                 <div className="flex gap-4">
                   <svg
                     viewBox="0 0 32 32"
@@ -134,8 +133,7 @@ export default function Project() {
                   </svg>
                 </div>
                 <p className="text-sm">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
+                  Managing food product inventory involves essential functionalities such as tracking stock levels, ensuring seamless replenishment, and maintaining product freshness and quality.
                 </p>
                 <div className="flex justify-end">
                   <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 group-hover:scale-110 duration-200">
@@ -148,7 +146,7 @@ export default function Project() {
           <li className="group" data-all='all' data-content="desktop" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
               <div className="card-body space-y-4">
-                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Gestion de Location de voiture</h1>
+                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Car Rental Management</h1>
                 <div className="flex gap-4">
                   <svg className="w-6 h-6 fill-current group-hover:fill-primary duration-200" viewBox="0 0 512 512">
                     <g id="5151e0c8492e5103c096af88a51e8d81">
@@ -196,8 +194,7 @@ export default function Project() {
                   </svg>
                 </div>
                 <p className="text-sm">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
+                Car rental management entails key functionalities like availability tracking, seamless reservations, and efficient vehicle maintenance and customer service.
                 </p>
                 <div className="flex justify-end">
                   <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 group-hover:-translate-x-2 duration-300">
@@ -210,7 +207,7 @@ export default function Project() {
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
               <div className="card-body space-y-4">
-                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Gestion de notes</h1>
+                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Student Grade Tracking</h1>
                 <div className="flex gap-4">
                   <svg className="w-6 h-6 fill-current group-hover:fill-primary duration-200" viewBox="0 0 24 24">
                     <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
@@ -237,8 +234,7 @@ export default function Project() {
                   </svg>
                 </div>
                 <p className="text-sm">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
+                Student grade management includes recording performance, generating reports, and safeguarding data privacy.
                 </p>
                 <div className="flex justify-end">
                   <Web />
@@ -249,7 +245,7 @@ export default function Project() {
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
               <div className="card-body space-y-4">
-                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Gestion de Location de voiture</h1>
+                <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Car Rental Management</h1>
                 <div className="flex gap-4">
                   <svg className="w-6 h-6 fill-current group-hover:fill-primary duration-200" viewBox="0 0 256 228">
                     <path
@@ -266,8 +262,7 @@ export default function Project() {
                   </svg>
                 </div>
                 <p className="text-sm">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Officiis dicta eligendi cupiditate explicabo, nesciunt nihil.
+                Car rental management entails key functionalities like availability tracking, seamless reservations, and efficient vehicle maintenance and customer service.
                 </p>
                 <div className="flex justify-end">
                   <Web />
