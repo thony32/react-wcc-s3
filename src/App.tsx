@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="px-[10%] 2xl:px-0">
+    <div>
       <div className="fixed top-3 left-[15%] lg:left-[95%] lg:right-6 2xl:left-[97%] 2xl:right-3 lg:top-[35%] z-50">
         <Navigation />
       </div>
