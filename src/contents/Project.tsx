@@ -276,7 +276,7 @@ export default function Project() {
         </ul>
       </div>
       <div className="md:absolute md:bottom-10">
-        <h1 className="font-extrabold opacity-50 font-sans text-4xl md:text-[5vw] bordered-text z-0">Aspire , Act , Achieve</h1>
+        <h1 className="font-extrabold opacity-50 font-sans text-3xl md:text-[5vw] bordered-text z-0">Aspire , Act , Achieve</h1>
       </div>
     </div>
   );

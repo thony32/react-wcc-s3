@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="font-bold">WCC W3</div>
       <div>
         <p className="font-bold">
-          Copyright © 2023 - All right reserved by Team RAYA -
+          Copyright © 2023 - All right reserved by Team RAYA
         </p>
       </div>
 
