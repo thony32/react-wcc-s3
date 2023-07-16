@@ -1,6 +1,6 @@
 export default function Graduation() {
   return (
-    <div>
+    <div id="schools">
       <section>
         <div className="py-8">
           <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
