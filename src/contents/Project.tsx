@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 function All() {
   return (
     <svg className="hidden lg:block lg:w-5 lg:fill-current lg:duration-300" viewBox="0 0 16 16">
@@ -46,6 +48,7 @@ function Desktop() {
   )
 }
 export default function Project() {
+  const [activeProject , setActiveProject] = useState("all")
   return (
     <div className="flex flex-col gap-1 justify-center items-center" id="Projects">
       <div>
@@ -55,32 +58,32 @@ export default function Project() {
       </div>
       <div className="flex flex-col gap-8 items-center lg:p-8 2xl:p-32" uk-filter="target: .js-filter">
         <ul className="flex gap-2 lg:gap-4 z-10">
-          <li className="group" uk-filter-control="[data-all='all']">
-            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+          <li onClick={() => setActiveProject("all")} className="group" uk-filter-control="[data-all='all']">
+            <a className={activeProject === "all" ? "hover:no-underline hover:text-primary text-primary duration-200 bg-base-100 p-4 card shadow-lg" : "hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg"} href="#">
               <div className="flex items-center gap-4">
                 <span className="font-extrabold">All</span>
                 <All />
               </div>
             </a>
           </li>
-          <li className="group" uk-filter-control="[data-content='web']">
-            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+          <li onClick={() => setActiveProject("web")} className="group" uk-filter-control="[data-content='web']">
+            <a className={activeProject === "web" ? "hover:no-underline hover:text-primary text-primary duration-200 bg-base-100 p-4 card shadow-lg" : "hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg"} href="#">
               <div className="flex items-center gap-4">
                 <span className="font-extrabold">Web</span>
                 <Web />
               </div>
             </a>
           </li>
-          <li className="group" uk-filter-control="[data-content='mobile']">
-            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+          <li onClick={() => setActiveProject("mobile")} className="group" uk-filter-control="[data-content='mobile']">
+            <a className={activeProject === "mobile" ? "hover:no-underline hover:text-primary text-primary duration-200 bg-base-100 p-4 card shadow-lg" : "hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg"} href="#">
               <div className="flex items-center gap-4">
                 <span className="font-extrabold">Mobile</span>
                 <Mobile />
               </div>
             </a>
           </li>
-          <li className="group" uk-filter-control="[data-content='desktop']">
-            <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
+          <li onClick={() => setActiveProject("desktop")} className="group" uk-filter-control="[data-content='desktop']">
+            <a className={activeProject === "desktop" ? "hover:no-underline hover:text-primary text-primary duration-200 bg-base-100 p-4 card shadow-lg" : "hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg"} href="#">
               <div className="flex items-center gap-4">
                 <span className="font-extrabold">Desktop</span>
                 <Desktop />
