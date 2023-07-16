@@ -7,8 +7,8 @@ export default function Experience() {
                 </h1>
             </div>
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-4">
-                <div className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl">
-                    <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-primary left-4 -top-6">
+                <div className="relative px-6 py-4 rounded-3xl shadow-xl ">
+                    <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-primary left-4 -top-6 ">
                         2023
                     </div>
                     <div className="mt-10">
