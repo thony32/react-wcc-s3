@@ -1,6 +1,6 @@
 export default function Language() {
   return (
-    <div className="flex gap-10">
+    <div className="flex flex-wrap gap-10">
       <div className="space-y-2 group">
         <label className="text-xl font-bold">Malagasy</label>
         <div className="flex gap-1">

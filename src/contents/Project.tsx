@@ -1,6 +1,6 @@
 function All() {
   return (
-    <svg className="w-5 fill-current duration-300" viewBox="0 0 16 16">
+    <svg className="hidden lg:block lg:w-5 lg:fill-current lg:duration-300" viewBox="0 0 16 16">
       <path
         d="M8.04 10.471 2.938 7.953l2.085-1.03-.932-.46-3.017 1.49L8.04 11.39l6.965-3.437-3.017-1.49-.93.46 2.084 1.03z"
       />
@@ -15,7 +15,7 @@ function All() {
 }
 function Web() {
   return (
-    <svg className="w-4 fill-current group-hover:rotate-12 duration-300" viewBox="0 0 92 92">
+    <svg className="hidden lg:block lg:w-4 lg:fill-current lg:group-hover:rotate-12 lg:duration-300" viewBox="0 0 92 92">
       <path id="XMLID_1666_" d="M46,0C20.6,0,0,20.6,0,46s20.6,46,46,46s46-20.6,46-46S71.4,0,46,0z M49.7,83.8c-0.2,0-0.4,0-0.7,0.1V62.2
 c5.2-0.1,9.9-0.2,14.2-0.5C59.4,73.4,52.3,81.2,49.7,83.8z M42.3,83.8c-2.7-2.7-9.7-10.5-13.5-22.1c4.2,0.3,9,0.5,14.2,0.5v21.7
 C42.8,83.9,42.6,83.8,42.3,83.8z M8,46c0-2.5,0.3-5,0.7-7.4c2.2-0.4,6.4-1,12.3-1.6c-0.5,2.9-0.8,5.9-0.8,9.1c0,3.2,0.3,6.2,0.7,9
@@ -33,14 +33,14 @@ C77.5,69.7,69.6,77.6,59.6,81.5z" />
 }
 function Mobile() {
   return (
-    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 group-hover:scale-110 duration-200">
+    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="hidden lg:block lg:w-5 lg:group-hover:scale-110 lg:duration-200">
       <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
     </svg>
   )
 }
 function Desktop() {
   return (
-    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 group-hover:-translate-x-2 duration-300">
+    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="hidden lg:block lg:w-6 lg:group-hover:-translate-x-2 lg:duration-300">
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
     </svg>
   )
@@ -49,7 +49,7 @@ export default function Project() {
   return (
     <div className="flex flex-col gap-1 justify-center items-center" id="Projects">
       <div>
-        <h1 className="font-bold text-[3em] lg:text-[5em] text-center first-letter:text-[1em] lg:first-letter:text-[1.5em] text-primary">
+        <h1 className="font-bold text-[2em] lg:text-[5em] text-center first-letter:text-[1.5em] lg:first-letter:text-[1.5em] text-primary">
           My academic Projects
         </h1>
       </div>
@@ -82,14 +82,14 @@ export default function Project() {
           <li className="group" uk-filter-control="[data-content='desktop']">
             <a className="hover:no-underline hover:text-primary duration-200 bg-base-100 p-4 card shadow-lg" href="#">
               <div className="flex items-center gap-4">
-                <span>Desktop</span>
+                <span className="font-extrabold">Desktop</span>
                 <Desktop />
               </div>
             </a>
           </li>
         </ul>
         {/* Projects */}
-        <ul className="js-filter grid grid-cols-1 sm:grid-cols-4 gap-5">
+        <ul className="js-filter flex flex-col lg:flex-row flex-wrap gap-5">
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
             <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
               <div className="card-body space-y-4">

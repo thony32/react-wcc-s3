@@ -1,8 +1,8 @@
 export default function Experience() {
     return (
         <div className="px-[10%] py-[5%] space-y-24" id="Exp">
-            <div className="flex justify-end">
-                <h1 className="font-bold text-[3em] lg:text-[5em] text-center first-letter:text-[1em] lg:first-letter:text-[1.5em] text-primary">
+            <div className="flex justify-center lg:justify-end">
+                <h1 className="font-bold text-[2em] lg:text-[5em] text-center first-letter:text-[1.5em] lg:first-letter:text-[1.5em] text-primary">
                     Experiences
                 </h1>
             </div>
