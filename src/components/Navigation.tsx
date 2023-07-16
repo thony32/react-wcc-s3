@@ -32,14 +32,14 @@ export default function Navigation() {
     <div className="flex flex-row lg:flex-col gap-4 lg:gap-7 bg-base-100 info duration-300 p-3 card">
       {/* Home */}
       {/* {activeSection} */}
-      <div className="tooltip tooltip-pink-500 tooltip-left" data-tip="Home">
+      <div className="tooltip tooltip-pink-600 tooltip-left" data-tip="Home">
         <Link to="div_heading" smooth={true} duration={500}>
           <svg
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-pink-500" : "w-7 cursor-pointer hover:-translate-y-1 duration-300 hover:text-pink-500"}
+            className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-pink-600" : "w-7 cursor-pointer hover:-translate-y-1 duration-300 hover:text-pink-600"}
           >
             <path
               strokeLinecap="round"
@@ -50,10 +50,10 @@ export default function Navigation() {
         </Link>
       </div>
       {/* About Me */}
-      <div className="tooltip tooltip-pink-500 tooltip-left" data-tip="About me">
+      <div className="tooltip tooltip-pink-600 tooltip-left" data-tip="About me">
         <Link to="div_about" smooth={true} duration={500}>
           <svg
-            className={activeSection === "div_about" ? "w-7 cursor-pointer duration-300 stroke-pink-500 rotate-180" : "w-7 cursor-pointer stroke-current duration-300 hover:stroke-pink-500 hover:rotate-180"}
+            className={activeSection === "div_about" ? "w-7 cursor-pointer duration-300 stroke-pink-600 rotate-180" : "w-7 cursor-pointer stroke-current duration-300 hover:stroke-pink-600 hover:rotate-180"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -69,12 +69,12 @@ export default function Navigation() {
       </div>
       {/* Skills */}
       <div
-        className="tooltip tooltip-pink-500 tooltip-left group"
+        className="tooltip tooltip-pink-600 tooltip-left group"
         data-tip="Skills"
       >
         <Link to="div_skills" smooth={true} duration={500}>
           <svg
-            className={activeSection === "div_skills" ? "w-7 duration-300 stroke-pink-500 cursor-pointer" : "w-7 stroke-current duration-300 hover:stroke-pink-500 cursor-pointer"}
+            className={activeSection === "div_skills" ? "w-7 duration-300 stroke-pink-600 cursor-pointer" : "w-7 stroke-current duration-300 hover:stroke-pink-600 cursor-pointer"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -103,12 +103,12 @@ export default function Navigation() {
       </div>
       {/* Graduation */}
       <div
-        className="tooltip tooltip-pink-500 tooltip-left group"
+        className="tooltip tooltip-pink-600 tooltip-left group"
         data-tip="Graduation"
       >
         <Link to="div_graduation" smooth={true} duration={500}>
           <svg
-            className={activeSection === "div_graduation" ? "w-7 cursor-pointer rotate-12 duration-300 fill-pink-500" : "w-7 fill-current cursor-pointer hover:rotate-12 duration-300 hover:fill-pink-500"}
+            className={activeSection === "div_graduation" ? "w-7 cursor-pointer rotate-12 duration-300 fill-pink-600" : "w-7 fill-current cursor-pointer hover:rotate-12 duration-300 hover:fill-pink-600"}
             viewBox="0 0 92 92"
           >
             <path
@@ -125,12 +125,12 @@ export default function Navigation() {
       </div>
       {/* Experiences */}
       <div
-        className="tooltip tooltip-pink-500 tooltip-left group"
+        className="tooltip tooltip-pink-600 tooltip-left group"
         data-tip="Experiences"
       >
         <Link to="div_experience" smooth={true} duration={500}>
           <svg
-            className={activeSection === "div_experience" ? "w-7 cursor-pointer scale-110 duration-300 fill-pink-500" : "w-7 fill-current cursor-pointer hover:scale-110 duration-300 hover:fill-pink-500"}
+            className={activeSection === "div_experience" ? "w-7 cursor-pointer scale-110 duration-300 fill-pink-600" : "w-7 fill-current cursor-pointer hover:scale-110 duration-300 hover:fill-pink-600"}
             viewBox="0 0 14 14"
 
           >
@@ -141,12 +141,12 @@ export default function Navigation() {
 
       {/* Projects */}
       <div
-        className="tooltip tooltip-pink-500 tooltip-left group"
+        className="tooltip tooltip-pink-600 tooltip-left group"
         data-tip="Projects"
       >
         <Link to="div_project" smooth={true} duration={500}>
           <svg
-            className={activeSection === "div_project" ? "w-7 cursor-pointer stroke-pink-500 duration-300" : "w-7 stroke-current cursor-pointer hover:stroke-pink-500 duration-300"}
+            className={activeSection === "div_project" ? "w-7 cursor-pointer stroke-pink-600 duration-300" : "w-7 stroke-current cursor-pointer hover:stroke-pink-600 duration-300"}
             viewBox="0 0 24 24"
             fill="none"
           >

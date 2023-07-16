@@ -22,7 +22,7 @@ export default function Graduation() {
                     <div className="order-1 w-5/12"></div>
 
                     <div className="order-1  w-5/12 px-1 py-4">
-                      <p className="mb-3 font-bold text-pink-500 text-3xl">
+                      <p className="mb-3 font-bold text-pink-600 text-3xl">
                         2022 - Nowadays
                       </p>
                       <h4 className="mb-3 font-bold  text-lg md:text-4xl text-current text-left">
@@ -37,7 +37,7 @@ export default function Graduation() {
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 font-bold text-pink-500 text-3xl">2021 - 2022</p>
+                      <p className="mb-3 font-bold text-pink-600 text-3xl">2021 - 2022</p>
                       <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
                         ENI, Fianarantsoa
                       </h4>
@@ -50,7 +50,7 @@ export default function Graduation() {
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: 100,100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
-                      <p className="mb-3 font-bold text-pink-500 text-3xl">2020 - 2021</p>
+                      <p className="mb-3 font-bold text-pink-600 text-3xl">2020 - 2021</p>
                       <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
                         ENI, Fianarantsoa
                       </h4>
@@ -64,7 +64,7 @@ export default function Graduation() {
                   <div uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; end: 50vh + 50%;" className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12"></div>
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 font-bold text-pink-500 text-3xl">2018 - 2019</p>
+                      <p className="mb-3 font-bold text-pink-600 text-3xl">2018 - 2019</p>
                       <h4 className="mb-3 font-bold text-lg md:text-4xl text-current">
                         LSJC, Fianarantsoa
                       </h4>

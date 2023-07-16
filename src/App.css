@@ -18,9 +18,9 @@
 }
 
 .info:hover {
-  filter: drop-shadow(0 0 0.7em #ec4899);
+  filter: drop-shadow(0 0 0.7em #db2777);
 }
 
 .project:hover {
-  filter: drop-shadow(0 0 0.7em #ec4899);
+  filter: drop-shadow(0 0 0.7em #db2777);
 }
