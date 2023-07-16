@@ -14,7 +14,7 @@ export default function Experience() {
                     <div className="mt-10">
                         <p className="text-xl font-semibold my-2">WCC</p>
                         <p className="mb-5">
-                            - Design and Development of a Web Application for Budget Management
+                            - Pariticipation in the Weekly Coding Challenge organized by TechZara.
                         </p>
                         <div className="border-t-2"></div>
                         <div className="flex justify-end mt-5 gap-3">
@@ -36,7 +36,7 @@ export default function Experience() {
                     <div className="mt-10">
                         <p className="text-xl font-semibold my-2">Frontend Awards</p>
                         <p className="mb-5">
-                            - Design and Development of a Web Application for Budget Management
+                            - Participation in the Frontend Awards organized by TechZara.
                         </p>
                         <div className="border-t-2"></div>
 
@@ -57,7 +57,7 @@ export default function Experience() {
                     <div className="mt-10">
                         <p className="text-xl font-semibold my-2">DevHunt</p>
                         <p className="mb-5">
-                            - Design and Development of a Web Application for Budget Management
+                            - Participation in the DevHunt organized by ENI Fianarantsoa.
                         </p>
                         <div className="border-t-2"></div>
 
@@ -78,9 +78,9 @@ export default function Experience() {
                         2022
                     </div>
                     <div className="mt-10">
-                        <p className="text-xl font-semibold my-2">Internship</p>
+                        <p className="text-xl font-semibold my-2">MANAO Fianarantsoa</p>
                         <p className="mb-5">
-                            - Design and Development of a Web Application for Budget Management
+                            - Internship. Design and development of a Web Application.
                         </p>
                         <div className="border-t-2"></div>
                         <div className="flex justify-end mt-5 gap-3">
