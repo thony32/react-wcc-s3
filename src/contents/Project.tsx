@@ -276,7 +276,7 @@ export default function Project() {
         </ul>
       </div>
       <div className="absolute bottom-10">
-        <h1 className="font-extrabold opacity-50 font-sans text-[5vw] bordered-text">Rome wasn't build in one day</h1>
+        <h1 className="font-extrabold opacity-50 font-sans text-[5vw] bordered-text">Aspire, Act, Achieve</h1>
       </div>
     </div>
   );
