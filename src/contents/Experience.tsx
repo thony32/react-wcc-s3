@@ -6,8 +6,8 @@ export default function Experience() {
                     Experiences
                 </h1>
             </div>
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-4">
-                <div className="relative px-6 py-4 rounded-3xl shadow-xl ">
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-4" uk-scrollspy="cls: uk-animation-slide-bottom; target: .anim; delay: 300; repeat: true">
+                <div uk-scrollspy-class="uk-animation-slide-top" className="relative px-6 py-4 rounded-3xl shadow-xl anim">
                     <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-pink-600 left-4 -top-6 ">
                         2023
                     </div>
@@ -29,7 +29,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl">
+                <div  uk-scrollspy-class="uk-animation-slide-bottom" className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl anim">
                     <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-pink-600 left-4 -top-6">
                         2022
                     </div>
@@ -50,7 +50,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl">
+                <div  uk-scrollspy-class="uk-animation-slide-top" className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl anim">
                     <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-pink-600 left-4 -top-6">
                         2022
                     </div>
@@ -73,7 +73,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl">
+                <div  uk-scrollspy-class="uk-animation-slide-bottom" className="relative bg-base-100 px-6 py-4 rounded-3xl shadow-xl anim">
                     <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-pink-600 left-4 -top-6">
                         2022
                     </div>
