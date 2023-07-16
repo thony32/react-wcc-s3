@@ -5,13 +5,13 @@ export default function Wordz() {
     const wordInterval = useRef<number>();
     const currentWord = useRef(0);
     const words = useRef<HTMLElement[]>([]);
-    const wordArray: React.MutableRefObject<string[]> = useRef([]);
+    const wordArray = useRef<any[]>([]);
 
     useEffect(() => {
         startWords();
 
         return () => {
-            clearInterval(wordInterval.current) ;
+            clearInterval(wordInterval.current);
         };
     }, []);
 
