@@ -51,7 +51,7 @@ export default function Navigation() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-pink-600" : "w-7 cursor-pointer hover:-translate-y-1 duration-300 hover:text-pink-600"}
+              className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-pink-600" : "w-7 cursor-pointer hover:-translate-y-1 text-current duration-300 hover:text-pink-600"}
             >
               <path
                 strokeLinecap="round"
