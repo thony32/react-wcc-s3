@@ -31,7 +31,7 @@ export default function Stacks() {
     return (
         <div className="space-y-10">
             {/* Front */}
-            <div className="flex  gap-16">
+            <div className="flex gap-14  2xl:gap-16">
                 <div onMouseOver={(event) => handleHover(event, setReact, 80)} onMouseOut={(event) => handleHover(event, setReact, 2)} className="group flex justify-center">
                     <div>
                         <div className="relative">
@@ -133,7 +133,7 @@ export default function Stacks() {
                 </div>
             </div>
             {/* Mobile */}
-            <div className="flex gap-16">
+            <div className="flex  gap-14 2xl:gap-16">
                 <div onMouseOver={(event) => handleHover(event, setIonic, 65)} onMouseOut={(event) => handleHover(event, setIonic, 2)} className="group flex justify-center">
                     <div>
                         <div className="relative space-y-4">

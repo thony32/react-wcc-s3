@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="AboutMe" className="relative h-screen flex items-center lg:mx-48 2xl:mx-96 rounded-xl  ">
+    <div className="relative h-auto lg:h-screen flex items-center lg:mx-48 2xl:mx-96 rounded-xl">
       <div>
         <div className="opacity-10 text-current absolute w-full h-full flex justify-end items-center"><h1 className="text-9xl font-bold text-pink-500 bordered-text">WHO AM I ?</h1></div>
         <div className="z-10 object-cover flex flex-col items-center gap-16 p-6 lg:p-12 ">
