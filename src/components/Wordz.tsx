@@ -81,7 +81,7 @@ export default function Wordz() {
     }
     return (
         <div className="relative h-[100%] flex items-center">
-            <div className="bannertxt text-4xl sm:text-[7vw]">
+            <div className="bannertxt text-4xl sm:text-[7em]">
                 <h1>
                     <span className="word text-pink-500">Web &nbsp; developer. &nbsp; </span>
                     <span className="word text-pink-500">Muriel &nbsp; Arisoa</span>
