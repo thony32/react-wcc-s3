@@ -47,7 +47,7 @@ function Desktop() {
 }
 export default function Project() {
   return (
-    <div className="flex flex-col gap-1 justify-center items-center">
+    <div className="flex flex-col gap-1 justify-center items-center" id="Projects">
       <div>
         <h1 className="font-bold text-[3em] lg:text-[5em] text-center first-letter:text-[1em] lg:first-letter:text-[1.5em] text-primary">
           My academic Projects
