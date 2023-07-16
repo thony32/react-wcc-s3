@@ -24,7 +24,7 @@ export default function Heading() {
       <div className="absolute top-0 h-full px-[10%] py-[5%] w-full left-0">
         <div className="h-full relative">
           {/* Personal Info */}
-          <div className={scrollTop > 200 ? "hidden lg:fixed lg:duration-500 lg:top-3 lg:left-3" : "hidden lg:fixed lg:duration-500 lg:top-[10%] lg:left-[10%] lg:space-y-3"}>
+          <div className={scrollTop > 200 ? "z-40 hidden lg:block lg:fixed lg:duration-500 lg:top-3 lg:left-3" : "z-40 hidden lg:block lg:fixed lg:duration-500 lg:top-[10%] lg:left-[10%] lg:space-y-3"}>
             <div className={scrollTop > 200 ? "shadow-2xl card bg-base-100 duration-300 scale-75 group info" : "shadow-2xl card bg-base-100 duration-300 group info"}>
               <div className="flex gap-5 p-5">
                 <svg className="w-7 fill-current group-hover:fill-primary duration-75" viewBox="0 0 24 24" fill="none">
@@ -82,7 +82,7 @@ export default function Heading() {
             </div>
           </div>
           {/* Contact */}
-          <div className={scrollTop > 200 ? "hidden fixed lg:duration-500 top-3 left-3 lg:bottom-3 lg:right-3" : "hidden fixed lg:duration-500 lg:bottom-[10%] lg:right-[10%]"}>
+          <div className={scrollTop > 200 ? "hidden lg:block fixed lg:duration-500 lg:bottom-[5%] lg:right-[5%] z-40" : "z-40 hidden lg:block fixed lg:duration-500 lg:bottom-[10%] lg:right-[10%]"}>
             <div className="flex gap-2 justify-center">
               <span className="bg-base-100 shadow-lg card p-3 cursor-pointer duration-300 facebook group">
                 <svg className={scrollTop > 200 ? "w-5 fill-current group-hover:!fill-blue-500 duration-300" : "w-7 fill-current group-hover:!fill-blue-500 duration-300"} viewBox="0 0 1920 1920">
