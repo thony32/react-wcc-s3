@@ -24,16 +24,17 @@ function App() {
         <div data-section id="div_skills">
           <Skills />
         </div>
+        <div data-section id="div_graduation">
+          <Graduation />
+        </div>
+        <div data-section id="div_experience">
+          <Experience />
+        </div>
+        <div data-section id="div_project">
+          <Project />
+        </div>
       </div>
-      <div data-section id="div_graduation">
-        <Graduation />
-      </div>
-      <div data-section id="div_experience">
-        <Experience />
-      </div>
-      <div data-section id="div_project">
-        <Project />
-      </div>
+
       <Footer />
     </div>
   );

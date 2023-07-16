@@ -1,12 +1,12 @@
 export default function Experience() {
     return (
-        <div className="px-[10%] py-[5%] space-y-24 h-[80vh]" id="Exp">
+        <div className="px-[10%] py-[5%] space-y-24 h-full" id="Exp">
             <div className="flex justify-center lg:justify-end">
                 <h1 className="font-bold text-[2em] lg:text-[5em] text-center first-letter:text-[1.5em] lg:first-letter:text-[1.5em] text-pink-500">
                     Experiences
                 </h1>
             </div>
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-4" uk-scrollspy="cls: uk-animation-slide-bottom; target: .anim; delay: 300; repeat: true">
+            <div className="sm:grid flex flex-col gap-5 sm:grid-cols-4" uk-scrollspy="cls: uk-animation-slide-bottom; target: .anim; delay: 300; repeat: true">
                 <div uk-scrollspy-class="uk-animation-slide-top" className="relative px-6 py-4 rounded-3xl shadow-xl anim">
                     <div className="text-white font-bold flex items-center justify-center absolute rounded-full w-16 h-16 shadow-xl bg-pink-600 left-4 -top-6 ">
                         2023
