@@ -1,16 +1,14 @@
 # Portfolio Féminin
 
-Bienvenue sur mon portfolio féminin ! Ce fichier `readme.md` vise à expliquer les significations des codes de couleurs utilisés sur la page.
+Bienvenue sur le portfolio de Muriel Arisoa RANAIVOSON !
 
 ## Codes de Couleurs
 
 ### Rose
 
-Le choix de la couleur rose dans ce portfolio féminin est intentionnel et symbolique. Le rose est souvent associé à des traits et des valeurs considérés comme féminins, tels que la douceur, l'élégance, la délicatesse et l'empathie. En utilisant une palette de couleurs roses, j'ai voulu créer une atmosphère chaleureuse et accueillante, qui reflète ma personnalité et met en valeur mon travail.
+Le choix de la couleur rose dans ce portfolio féminin est intentionnel et symbolique. En utilisant une palette de couleurs roses, j'ai voulu créer une atmosphère chaleureuse et accueillante, qui reflète ma personnalité et met en valeur mon travail.
 
 ### Fond sombre
-
-Le fond sombre de la page a également été choisi de manière délibérée. Il offre plusieurs avantages esthétiques et fonctionnels :
 
 1. **Mise en valeur du contenu** : Le fond sombre permet de mettre en évidence le contenu du portfolio, notamment les informations, les compétences, les projets personnels et académiques, ainsi que les expériences professionnelles. Les éléments textuels et visuels ressortent davantage sur un fond sombre, ce qui facilite la lecture et rend l'ensemble plus attractif.
 
@@ -20,8 +18,6 @@ Le fond sombre de la page a également été choisi de manière délibérée. Il
 
 ## Conclusion
 
-Les codes de couleurs utilisés dans ce portfolio féminin, tels que le rose et le fond sombre, sont soigneusement sélectionnés pour représenter une identité féminine, créer une ambiance accueillante et mettre en valeur le contenu de manière élégante. J'espère que vous apprécierez votre visite et que vous découvrirez mes compétences et réalisations avec plaisir.
+Les codes de couleurs utilisés dans ce portfolio, tels que le rose et le fond sombre, sont soigneusement sélectionnés pour représenter une identité féminine, créer une ambiance accueillante et mettre en valeur le contenu de manière élégante. J'espère que vous apprécierez votre visite et que vous découvrirez mes compétences et réalisations avec plaisir.
 
-N'hésitez pas à me contacter si vous avez des questions ou des commentaires.
-
-Merci !
+Merci beaucoup!
