@@ -30,17 +30,19 @@ export default function Navigation() {
   }, []);
   return (
     <div>
-      <div className={
-        activeSection === "div_skills"
-          ? 'fixed top-[25%] right-5 -z-50 duration-[1000ms]'
-          : activeSection === "div_graduation"
-            ? 'fixed top-[25%] right-5 -translate-x-[200%] -z-50 duration-[1000ms] '
-            : 'fixed top-[25%] right-5 -z-50 duration-[1000ms] '
-      }
-      >
+      {/* <div className='z-0 bg-red-500'>
+        <div className={
+          activeSection === "div_skills"
+            ? 'fixed top-[25%] right-5 -z-50 duration-[1000ms]'
+            : activeSection === "div_graduation"
+              ? 'fixed top-[25%] right-5 -translate-x-[200%] -z-50 duration-[1000ms] '
+              : 'fixed top-[25%] right-5 -z-50 duration-[1000ms] '
+        }
+        >
+        </div>
         <img className={activeSection === "div_skills" ? "w-[600px] opacity-10 duration-300 blur-sm -z-50" : 'w-[600px] opacity-0 duration-300 blur-sm -z-50'} src="/images/coding-animate.svg" alt="coding" />
-        <img className={activeSection === "div_graduation" ? "w-[600px] opacity-10 -translate-y-[100%] duration-300 blur-sm -z-50" : 'w-[600px] opacity-0 duration-300 blur-sm -z-50'} src="/images/graduation-animate.svg"  alt="grad" />
-      </div>
+        <img className={activeSection === "div_graduation" ? "w-[600px] opacity-10 -translate-y-[100%] duration-300 blur-sm -z-50" : 'w-[600px] opacity-0 duration-300 blur-sm -z-50'} src="/images/graduation-animate.svg" alt="grad" />
+      </div> */}
       <div className="flex flex-row lg:flex-col gap-4 lg:gap-7 bg-base-100 info duration-300 p-3 card">
         {/* Home */}
         {/* {activeSection} */}

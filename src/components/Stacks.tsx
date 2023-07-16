@@ -29,7 +29,7 @@ export default function Stacks() {
         kotlinValue: useSpring({ kotlinValue: kotlin, from: { kotlinValue: 0 }, config: config.wobbly }),
     };
     return (
-        <div className="space-y-10 z-20">
+        <div className="space-y-10 z-50">
             {/* Front */}
             <div className="flex gap-14  2xl:gap-16">
                 <div onMouseOver={(event) => handleHover(event, setReact, 80)} onMouseOut={(event) => handleHover(event, setReact, 2)} className="group flex justify-center">
