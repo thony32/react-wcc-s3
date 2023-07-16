@@ -78,7 +78,7 @@ export default function Experience() {
                         2022
                     </div>
                     <div className="mt-10">
-                        <p className="text-xl font-semibold my-2">Web Development Internship</p>
+                        <p className="text-xl font-semibold my-2">Internship</p>
                         <p className="mb-5">
                             - Design and Development of a Web Application for Budget Management
                         </p>
