@@ -51,7 +51,7 @@ export default function Navigation() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-pink-600" : "w-7 cursor-pointer hover:-translate-y-1 duration-300 hover:text-pink-600"}
+              className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-pink-600" : "w-7 cursor-pointer hover:-translate-y-1 !text-current duration-300 hover:text-pink-600"}
             >
               <path
                 strokeLinecap="round"
@@ -65,7 +65,7 @@ export default function Navigation() {
         <div className="tooltip tooltip-pink-600 tooltip-left" data-tip="About me">
           <Link to="div_about" smooth={true} duration={500}>
             <svg
-              className={activeSection === "div_about" ? "w-7 cursor-pointer duration-300 stroke-pink-600 rotate-180" : "w-7 cursor-pointer stroke-current duration-300 hover:stroke-pink-600 hover:rotate-180"}
+              className={activeSection === "div_about" ? "w-7 cursor-pointer duration-300 stroke-pink-600 rotate-180" : "w-7 cursor-pointer stroke-current !text-current duration-300 hover:stroke-pink-600 hover:rotate-180"}
               viewBox="0 0 24 24"
               fill="none"
             >
@@ -86,7 +86,7 @@ export default function Navigation() {
         >
           <Link to="div_skills" smooth={true} duration={500}>
             <svg
-              className={activeSection === "div_skills" ? "w-7 duration-300 stroke-pink-600 cursor-pointer" : "w-7 stroke-current duration-300 hover:stroke-pink-600 cursor-pointer"}
+              className={activeSection === "div_skills" ? "w-7 duration-300 stroke-pink-600 cursor-pointer" : "w-7 stroke-current !text-current duration-300 hover:stroke-pink-600 cursor-pointer"}
               viewBox="0 0 24 24"
               fill="none"
             >
@@ -120,7 +120,7 @@ export default function Navigation() {
         >
           <Link to="div_graduation" smooth={true} duration={500}>
             <svg
-              className={activeSection === "div_graduation" ? "w-7 cursor-pointer rotate-12 duration-300 fill-pink-600" : "w-7 fill-current cursor-pointer hover:rotate-12 duration-300 hover:fill-pink-600"}
+              className={activeSection === "div_graduation" ? "w-7 cursor-pointer rotate-12 duration-300 fill-pink-600" : "w-7 fill-current cursor-pointer !text-current hover:rotate-12 duration-300 hover:fill-pink-600"}
               viewBox="0 0 92 92"
             >
               <path
