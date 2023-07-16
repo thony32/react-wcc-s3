@@ -5,7 +5,7 @@ export default function Wordz() {
     const wordInterval = useRef<number>();
     const currentWord = useRef(0);
     const words = useRef<HTMLElement[]>([]);
-    const wordArray = useRef<any[]>([]);
+    const wordArray: React.MutableRefObject<string[]> = useRef([]);
 
     useEffect(() => {
         startWords();
@@ -83,10 +83,10 @@ export default function Wordz() {
         <div className="relative h-[100%] flex items-center">
             <div className="bannertxt text-4xl sm:text-[7vw]">
                 <h1>
-                    <span className="word text-primary">Web &nbsp; developer. &nbsp; </span>
-                    <span className="word text-primary">Muriel &nbsp; Arisoa</span>
-                    <span className="word text-primary">Mobile &nbsp; developer. &nbsp; </span>
-                    <span className="word text-primary">UX &nbsp; / &nbsp; UI &nbsp; Designer.</span>
+                    <span className="word text-pink-500">Web &nbsp; developer. &nbsp; </span>
+                    <span className="word text-pink-500">Muriel &nbsp; Arisoa</span>
+                    <span className="word text-pink-500">Web &nbsp; developer. &nbsp; </span>
+                    <span className="word text-pink-500">UX &nbsp; / &nbsp; UI &nbsp; Designer.</span>
                 </h1>
             </div>
         </div>
