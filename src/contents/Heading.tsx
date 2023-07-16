@@ -82,7 +82,7 @@ export default function Heading() {
             </div>
           </div>
           {/* Contact */}
-          <div className={scrollTop > 200 ? "hidden lg:block fixed lg:duration-500 lg:bottom-[5%] lg:right-[5%] z-40" : "z-40 hidden lg:block fixed lg:duration-500 lg:bottom-[10%] lg:right-[10%]"}>
+          <div className={scrollTop > 200 ? "hidden lg:block fixed lg:duration-500 lg:bottom-[5%] lg:right-[5%] z-50" : "z-50 hidden lg:block fixed lg:duration-500 lg:bottom-[10%] lg:right-[10%]"}>
             <div className="flex gap-2 justify-center">
               <span className="bg-base-100 shadow-lg card p-3 cursor-pointer duration-300 facebook group">
                 <svg className={scrollTop > 200 ? "w-5 fill-current group-hover:!fill-blue-500 duration-300" : "w-7 fill-current group-hover:!fill-blue-500 duration-300"} viewBox="0 0 1920 1920">

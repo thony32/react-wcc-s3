@@ -24,3 +24,10 @@
 .project:hover {
   filter: drop-shadow(0 0 0.7em #db2777);
 }
+
+.bordered-text {
+  color: #db2777;
+  -webkit-text-fill-color: #1D232B; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #db2777;
+}

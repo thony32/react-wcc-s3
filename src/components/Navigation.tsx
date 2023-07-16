@@ -32,10 +32,10 @@ export default function Navigation() {
     <div>
       <div className={
         activeSection === "div_skills"
-          ? 'fixed top-[25%] right-5 z-0 duration-[1000ms]'
+          ? 'fixed top-[25%] right-5 -z-50 duration-[1000ms]'
           : activeSection === "div_graduation"
-            ? 'fixed top-[25%] right-5 -translate-x-[200%] z-0 duration-[1000ms]'
-            : 'fixed top-[25%] right-5 z-0 duration-[1000ms]'
+            ? 'fixed top-[25%] right-5 -translate-x-[200%] -z-50 duration-[1000ms] '
+            : 'fixed top-[25%] right-5 -z-50 duration-[1000ms] '
       }
       >
         <img className={activeSection === "div_skills" ? "w-[600px] opacity-10 duration-300 blur-sm -z-50" : 'w-[600px] opacity-0 duration-300 blur-sm -z-50'} src="/images/coding-animate.svg" alt="coding" />
