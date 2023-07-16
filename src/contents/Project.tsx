@@ -275,8 +275,8 @@ export default function Project() {
           </li>
         </ul>
       </div>
-      <div className="absolute bottom-10">
-        <h1 className="font-extrabold opacity-50 font-sans text-[5vw] bordered-text">Aspire , Act , Achieve</h1>
+      <div className="md:absolute md:bottom-10">
+        <h1 className="font-extrabold opacity-50 font-sans text-4xl md:text-[5vw] bordered-text">Aspire , Act , Achieve</h1>
       </div>
     </div>
   );

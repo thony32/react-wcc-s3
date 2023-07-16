@@ -229,8 +229,8 @@ export default function Heading() {
           </div>
 
           {/* contact mobile version */}
-          <div className="fixed z-40 bottom-2 left-2 md:hidden dropdown dropdown-right dropdown-end rounded-full">
-            <label tabIndex={0} className="btn m-1">
+          <div className="fixed z-50 bottom-3 left-3 md:hidden dropdown dropdown-right dropdown-end rounded-full">
+            <label tabIndex={0} className="btn btn-neutral">
               <svg viewBox="0 0 24 24" className="fill-current w-6 h-6">
                 <path d="M4,21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H5A1,1,0,0,0,4,3ZM12,7.5a2,2,0,1,1-2,2A2,2,0,0,1,12,7.5ZM8.211,16.215a4,4,0,0,1,7.578,0A.993.993,0,0,1,14.83,17.5H9.18A1,1,0,0,1,8.211,16.215Z" />
               </svg>
@@ -312,8 +312,8 @@ export default function Heading() {
           </div>
 
           {/* personal infos mobile  */}
-          <div className="z-40 dropdown dropdown-top dropdown-end fixed bottom-2 right-2 md:hidden">
-            <label tabIndex={0} className="btn m-1">
+          <div className="z-50 dropdown dropdown-top dropdown-end fixed bottom-3 right-3 md:hidden">
+            <label tabIndex={0} className="btn btn-neutral">
               <svg className="w-6 h-6 fill-current">
                 <g transform="translate(1 1) fill-current">
                   <g>
