@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="fixed top-3 left-[15%] lg:left-[95%] lg:right-6 2xl:left-[97%] 2xl:right-3 lg:top-[35%] z-50">
         <Navigation />
       </div>
@@ -31,7 +31,7 @@ function App() {
           <Experience />
         </div>
         <div data-section id="div_project">
-          <Project />
+          {/* <Project /> */}
         </div>
       </div>
 

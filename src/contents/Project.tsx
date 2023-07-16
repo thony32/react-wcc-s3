@@ -56,7 +56,7 @@ export default function Project() {
           My academic Projects
         </h1>
       </div>
-      <div className="flex flex-col gap-8 items-center lg:p-8 2xl:p-32" uk-filter="target: .js-filter">
+      <div className="flex flex-col gap-8 items-center lg:p-8 2xl:p-32 z-20" uk-filter="target: .js-filter">
         <ul className="flex gap-2 lg:gap-4 z-10">
           <li onClick={() => setActiveProject("all")} className="group" uk-filter-control="[data-all='all']">
             <a className={activeProject === "all" ? "hover:no-underline hover:text-pink-600 text-pink-600 duration-200 bg-base-100 p-4 card shadow-lg" : "hover:no-underline hover:text-pink-500 duration-200 bg-base-100 p-4 card shadow-lg"} href="#">
@@ -117,7 +117,7 @@ export default function Project() {
             </div>
           </li>
           <li className="group" data-all='all' data-content="mobile" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
-            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[320px]">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[340px]">
               <div className="card-body space-y-4">
                 <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Food stock management</h1>
                 <div className="flex gap-4">
@@ -276,7 +276,7 @@ export default function Project() {
         </ul>
       </div>
       <div className="absolute bottom-10">
-        <h1 className="font-extrabold opacity-50 font-sans text-[5vw] bordered-text">Aspire , Act , Achieve</h1>
+        <h1 className="font-extrabold opacity-50 font-sans text-[5vw] bordered-text z-0">Aspire , Act , Achieve</h1>
       </div>
     </div>
   );
