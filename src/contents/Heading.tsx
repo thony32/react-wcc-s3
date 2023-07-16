@@ -239,8 +239,8 @@ export default function Heading() {
           </div>
 
           {/* contact mobile version */}
-          <div className="fixed z-40 bottom-2 left-2 md:hidden dropdown dropdown-right dropdown-end rounded-full">
-            <label tabIndex={0} className="btn m-1">
+          <div className="fixed z-50 bottom-3 left-3 md:hidden dropdown dropdown-right dropdown-end rounded-full">
+            <label tabIndex={0} className="btn btn-circle btn-neutral">
               <svg viewBox="0 0 24 24" className="fill-current w-6 h-6">
                 <path d="M4,21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H5A1,1,0,0,0,4,3ZM12,7.5a2,2,0,1,1-2,2A2,2,0,0,1,12,7.5ZM8.211,16.215a4,4,0,0,1,7.578,0A.993.993,0,0,1,14.83,17.5H9.18A1,1,0,0,1,8.211,16.215Z" />
               </svg>
@@ -322,7 +322,7 @@ export default function Heading() {
           </div>
 
           {/* personal infos mobile  */}
-          <div className="z-40 dropdown dropdown-top dropdown-end fixed bottom-2 right-2 md:hidden">
+          <div className="z-50 dropdown dropdown-top dropdown-end fixed bottom-2 right-2 md:hidden">
             <label tabIndex={0} className="btn btn-circle m-1">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
