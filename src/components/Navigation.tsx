@@ -1,16 +1,45 @@
+import { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-scroll'
+
 export default function Navigation() {
+  // * active link
+  const [activeSection, setActiveSection] = useState(null);
+  const sections: React.MutableRefObject<HTMLElement[]> = useRef([]);
+
+  const handleScroll = () => {
+    const pageYOffset = window.pageYOffset;
+    let newActiveSection = null;
+
+    sections.current.forEach((section: HTMLElement) => {
+      const sectionOffsetTop: number = section.offsetTop;
+      const sectionHeight: number = section.offsetHeight;
+
+      if (pageYOffset >= sectionOffsetTop && pageYOffset < sectionOffsetTop + sectionHeight) {
+        newActiveSection = section.id;
+      }
+    });
+    setActiveSection(newActiveSection);
+  };
+  useEffect(() => {
+    sections.current = Array.from(document.querySelectorAll('[data-section]'));
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div className="flex flex-row lg:flex-col gap-4 lg:gap-7 bg-base-100 info duration-300 p-3 card">
       {/* Home */}
+      {/* {activeSection} */}
       <div className="tooltip tooltip-primary tooltip-left" data-tip="Home">
-        <a href="#home">
+        <Link to="div_heading" smooth={true} duration={500}>
           <svg
-            xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-7 cursor-pointer hover:-translate-y-1 duration-300 hover:text-primary"
+            className={activeSection === "div_heading" ? "w-7 cursor-pointer -translate-y-1 duration-300 text-primary" : "w-7 cursor-pointer hover:-translate-y-1 duration-300 hover:text-primary"}
           >
             <path
               strokeLinecap="round"
@@ -18,13 +47,13 @@ export default function Navigation() {
               d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
             />
           </svg>
-        </a>
+        </Link>
       </div>
       {/* About Me */}
       <div className="tooltip tooltip-primary tooltip-left" data-tip="About me">
-        <a href="#AboutMe">
+        <Link to="div_about" smooth={true} duration={500}>
           <svg
-            className="w-7 cursor-pointer stroke-current duration-300 hover:stroke-primary hover:rotate-180"
+            className={activeSection === "div_about" ? "w-7 cursor-pointer duration-300 stroke-primary rotate-180" : "w-7 cursor-pointer stroke-current duration-300 hover:stroke-primary hover:rotate-180"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -36,28 +65,28 @@ export default function Navigation() {
               stroke-linecap="round"
             />
           </svg>
-        </a>
+        </Link>
       </div>
       {/* Skills */}
       <div
         className="tooltip tooltip-primary tooltip-left group"
         data-tip="Skills"
       >
-        <a href="#skills">
+        <Link to="div_skills" smooth={true} duration={500}>
           <svg
-            className="w-7 stroke-current duration-300 hover:stroke-primary cursor-pointer"
+            className={activeSection === "div_skills" ? "w-7 duration-300 stroke-primary cursor-pointer" : "w-7 stroke-current duration-300 hover:stroke-primary cursor-pointer"}
             viewBox="0 0 24 24"
             fill="none"
           >
             <path
-              className="group-hover:-translate-x-[1px] duration-300"
+              className={activeSection === "div_skills" ? "-translate-x-[1px] duration-300" : "group-hover:-translate-x-[1px] duration-300"}
               d="M7 8L3 12L7 16"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
             <path
-              className="group-hover:translate-x-[1px] duration-300"
+              className={activeSection === "div_skills" ? "translate-x-[1px] duration-300" : "group-hover:-translate-x-[1px] duration-300"}
               d="M17 8L21 12L17 16"
               stroke-width="2"
               stroke-linecap="round"
@@ -70,16 +99,16 @@ export default function Navigation() {
               stroke-linejoin="round"
             />
           </svg>
-        </a>
+        </Link>
       </div>
       {/* Graduation */}
       <div
         className="tooltip tooltip-primary tooltip-left group"
         data-tip="Graduation"
       >
-        <a href="#schools">
+        <Link to="div_graduation" smooth={true} duration={500}>
           <svg
-            className="w-7 fill-current cursor-pointer hover:rotate-12 duration-300 hover:fill-primary"
+            className={activeSection === "div_graduation" ? "w-7 cursor-pointer rotate-12 duration-300 fill-primary" : "w-7 fill-current cursor-pointer hover:rotate-12 duration-300 hover:fill-primary"}
             viewBox="0 0 92 92"
           >
             <path
@@ -92,22 +121,22 @@ export default function Navigation() {
 	c-0.7-0.7-1.2-1.8-1.2-2.8c0-1,0.4-2.1,1.2-2.8c0.7-0.7,1.8-1.2,2.8-1.2S10.2,59.5,11,60.3z"
             />
           </svg>
-        </a>
+        </Link>
       </div>
       {/* Experiences */}
       <div
         className="tooltip tooltip-primary tooltip-left group"
         data-tip="Experiences"
       >
-        <a href="#Exp">
+        <Link to="div_experience" smooth={true} duration={500}>
           <svg
-            className="w-7 fill-current cursor-pointer hover:scale-110 duration-300 hover:fill-primary"
+            className={activeSection === "div_experience" ? "w-7 cursor-pointer scale-110 duration-300 fill-primary" : "w-7 fill-current cursor-pointer hover:scale-110 duration-300 hover:fill-primary"}
             viewBox="0 0 14 14"
-            xmlns="http://www.w3.org/2000/svg"
+
           >
             <path d="M7,1V5h4V1Zm3,3H8V2h2ZM7,7v4h4V7Zm3,3H8V8h2ZM1,1V5H5V1ZM4,4H2V2H4ZM1,7v4H5V7Zm3,3H2V8H4Z" />
           </svg>
-        </a>
+        </Link>
       </div>
 
       {/* Projects */}
@@ -115,9 +144,9 @@ export default function Navigation() {
         className="tooltip tooltip-primary tooltip-left group"
         data-tip="Projects"
       >
-        <a href="#Projects">
+        <Link to="div_project" smooth={true} duration={500}>
           <svg
-            className="w-7 stroke-current cursor-pointer hover:stroke-primary duration-300"
+            className={activeSection === "div_project" ? "w-7 cursor-pointer stroke-primary duration-300" : "w-7 stroke-current cursor-pointer hover:stroke-primary duration-300"}
             viewBox="0 0 24 24"
             fill="none"
           >
@@ -149,7 +178,7 @@ export default function Navigation() {
               stroke-linejoin="round"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

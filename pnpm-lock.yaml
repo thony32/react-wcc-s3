@@ -25,6 +25,9 @@ dependencies:
   react-router-dom:
     specifier: ^6.14.1
     version: 6.14.1(react-dom@18.2.0)(react@18.2.0)
+  react-scroll:
+    specifier: ^1.8.9
+    version: 1.8.9(react-dom@18.2.0)(react@18.2.0)
   react-spring:
     specifier: ^9.7.2
     version: 9.7.2(@react-three/fiber@8.13.5)(konva@9.2.0)(react-dom@18.2.0)(react-konva@18.2.10)(react-native@0.72.3)(react-zdog@1.1.1)(react@18.2.0)(three@0.154.0)(zdog@1.1.3)
@@ -42,6 +45,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.6
     version: 18.2.6
+  '@types/react-scroll':
+    specifier: ^1.8.7
+    version: 1.8.7
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.61.0
     version: 5.61.0(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.0.2)
@@ -2345,6 +2351,12 @@ packages:
     dependencies:
       '@types/react': 18.2.14
     dev: false
+
+  /@types/react-scroll@1.8.7:
+    resolution: {integrity: sha512-BB8g+hQL7OtBPWg/NcES6p5u6vduZonGl1BxrsGUwcefE53pfI0pFDd1lRFndgEUE6whYdFfhD+j0sZZT/6brQ==}
+    dependencies:
+      '@types/react': 18.2.14
+    dev: true
 
   /@types/react@18.2.14:
     resolution: {integrity: sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==}
@@ -5179,6 +5191,18 @@ packages:
     dependencies:
       '@remix-run/router': 1.7.1
       react: 18.2.0
+    dev: false
+
+  /react-scroll@1.8.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-9m7ztraiX/l6L7erzYAD3fhnveNckei6/NkWfqwN2e0FRdoE2W6Pk4oi2Nah7mWpPCPAeIgegfaqZACTimPOwg==}
+    peerDependencies:
+      react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      lodash.throttle: 4.1.1
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-shallow-renderer@16.15.0(react@18.2.0):

@@ -91,7 +91,7 @@ export default function Project() {
         {/* Projects */}
         <ul className="js-filter flex flex-col lg:flex-row flex-wrap gap-5">
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
-            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[320px]">
               <div className="card-body space-y-4">
                 <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Bank account management</h1>
                 <div className="text-2xl font-semibold">
@@ -114,7 +114,7 @@ export default function Project() {
             </div>
           </li>
           <li className="group" data-all='all' data-content="mobile" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
-            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[320px]">
               <div className="card-body space-y-4">
                 <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Food stock management</h1>
                 <div className="flex gap-4">
@@ -144,7 +144,7 @@ export default function Project() {
             </div>
           </li>
           <li className="group" data-all='all' data-content="desktop" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
-            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[320px]">
               <div className="card-body space-y-4">
                 <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Car Rental Management</h1>
                 <div className="flex gap-4">
@@ -205,7 +205,7 @@ export default function Project() {
             </div>
           </li>
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
-            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[320px]">
               <div className="card-body space-y-4">
                 <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Student Grade Tracking</h1>
                 <div className="flex gap-4">
@@ -243,7 +243,7 @@ export default function Project() {
             </div>
           </li>
           <li className="group" data-all='all' data-content="web" uk-scrollspy="cls: uk-animation-fade; target: .card; delay: 500; repeat: true">
-            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[300px]">
+            <div className="card shadow-lg bg-base-100 project duration-300 w-[370px] h-[320px]">
               <div className="card-body space-y-4">
                 <h1 className="text-current text-3xl font-bold group-hover:text-white duration-150">Car Rental Management</h1>
                 <div className="flex gap-4">

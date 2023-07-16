@@ -14,14 +14,26 @@ function App() {
       <div className="fixed top-3 left-[15%] lg:left-[95%] lg:right-6 2xl:left-[97%] 2xl:right-3 lg:top-[35%] z-50">
         <Navigation />
       </div>
-      <Heading />
-      <div className="space-y-32 sm:space-y-8 2xl:space-y-0">
-        <About />
-        <Skills />
+      <div data-section id="div_heading">
+        <Heading />
       </div>
-      <Graduation />
-      <Experience />
-      <Project />
+      <div className="space-y-32 sm:space-y-8 2xl:space-y-0">
+        <div data-section id="div_about">
+          <About />
+        </div>
+        <div data-section id="div_skills">
+          <Skills />
+        </div>
+      </div>
+      <div data-section id="div_graduation">
+        <Graduation />
+      </div>
+      <div data-section id="div_experience">
+        <Experience />
+      </div>
+      <div data-section id="div_project">
+        <Project />
+      </div>
       <Footer />
     </div>
   );
